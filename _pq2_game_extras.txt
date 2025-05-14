@@ -1,49 +1,117 @@
-===============================================================================
-||                                                                           ||
-||  KURO-CHAN  BROKE  THE  F***  OUT  OF  POLICE  QUEST  II:  THE  VENGEANCE ||
-||                                                                           ||
-===============================================================================
+-----------  POLICE QUEST 2: THE VENGEANCE - A broken analysis...   -----------
+                        Guide Written by: Kuro-chan_101
 
------------- INTRODUCTION --------------
+                                xxJJMMMMMMLLxx
+                            xJJMMMMMMMMMMMMMMMMLLx
+                         xJMMMMMMMMMMMMMMMMMMMMMMMMLx
+                       xJMMMMMMMMMMMMMMMMMMMMMMMMMMMMLx
+                      JMMMMMMMMMM_ooJML____>MMMMMMMMMMML
+                     JMMMMMMMMMMM_ooJJMML_____>MMMMMMMMML
+                    |MMMMMMMMMMMo_ooJJMMML______>MMMMMMMM|
+                    MMMMMMMMMMM<_ooooJJJJMML_______>MMMMMM
+                    MMMMMMMMM<__oooooJJJMMMML_______>MMMMM
+                    |MMMMMMML__oooooJJJJJJJMMML______>MMM|
+                     JMMMMML_ooooJJJJJJJJMMMMML__________
+                      ____oooooooJJJJJJJJMMMMMM_________
+                       ___ooooooooooJJJJJMMMMMM________
+                         _ooooooooooJJJJJMMMMMML____
+                           __oooooooJJJJJMMMMMML__
+                               ___ooooJJJJMMMM|
+                                    ___oo---
+
+              - Police Quest II is Copyright 1988 Sierra On-Line -
 
 "Police Quest II: A well-thought out adventure game created by Sierra Online.
 (At least by what we would define as well-thought out when we consider titles
 such as moon logic King's Quest and horny logic Leisure Suit Larry). You, the
-player, assume the role of Sonny Bonds, a veteran police officer and recently 
-promoted detective of the Lytton PD. A year has passed since Sonny brought 
-down the famous Death Angel (who was really just an overrated drug pusher that
-had a mancrush for blonde pimps), hooked up with his favourite prostitute, I 
-mean, girlfriend Marie Wilkans, and was enjoying life... Then, Bains broke out
-of jail to ensure another Police quest game was created.  Way to go Bains. You
-helped Walls score another hard-earned paycheque.
+player, assume the role of Sonny Bonds, a veteran police officer and recently
+promoted detective of the Lytton PD. A year has passed since Sonny brought down
+the famous Death Angel (who was really just an overrated drug pusher that had a
+mancrush for blonde pimps), hooked up with his favourite prostitute, I mean,
+girlfriend Marie Wilkans, and was enjoying life... Then, Bains broke out of
+jail to ensure another Police Quest game was created.  Way to go Bains. You
+helped Jim Walls score another hard-earned paycheque.
 
 Generally well-received and liked (as far as Police Quest games go), we
-suggested that SQH denizen Kuro-chan should have 'fun' while playing this 
-game. Well.. that was a mistake, because he broke the fuck out of it!"
+suggested that SQH denizen Kuro-chan should have 'fun' while playing this game.
+Well.. that was a mistake, because he broke the fuck out of it!"
 
--------- GENERAL INFORMATION -----------
 
-- This is aimed for lesser-known details. It is possible gamers may already
-  know about some (if not all) of this content.
-- Kuro-chan is responsible for finding nearly all the content.  A few entries
-  were also found by Space Quest Historian and Sierra Arts, but were further
-  researched (such as which versions had the glitch, additional in-game
-  consequences, etc.).
-- Room data will contain commentary on lesser known actions, odds and ends
-  commands that may not be as well-known, potential softlocks you have to go
-  out of your way to accomplish and a list of bugs that can do silly stuff,
-  lock and even break the game.
+----------------------------------- UPDATES -----------------------------------
+
+May 4th, 2025 (1.002)
+- It's just easier to say: More stuff was added and more stuff was fixed.
+- Ammended the list of which games the issues work on by adding an Atari ST
+  column... Then later removed it because Atari ST is pretty much the same as
+  the DOS version, both the 1.001.006 and 1.002.011 builds.
+
+April 30th, 2025 (1.001)
+- Made some updated to the concept for BUGS and other odds and ends to show
+  what versions this applies to.
+
+April 18th, 2025
+- I see updates...
+
+April 7th, 2025.
+- More updates...  and more.  Gage keeps finding stuff for me to do, huh...?
+
+April 6th, 2025
+- Tons of updates.  In a way, it feels a bit like a new document.
+
+April 2nd, 2025
+- Fixed typos, made comments more consistent.
+- Updated motel and airport entrance, airport bathroom  information.
+
+March 31st, 2025
+- Moved a bug from 061 to 062 (where it belongs)
+- Added "Inifinte Points" glitch and "Missing Points" to 061.
+
+March 2nd, 2025
+- First major draft completed.
+
+
+----------------------------- GENERAL INFORMATION -----------------------------
+
+- This is aimed at lesser-known details. Generic content that is normally
+  covered in walk-throughs or is considered common knowledge will not be
+  deliberately mentioned. It is possible gamers may already know about some (if
+  not all) of the contents of this document.
+- The document divides up the content by rooms. Room data will contain may
+  contain:
+  - Commentary on lesser known commands
+  - Bugs which can include unusual animations, soft locks, hard locks, total
+    breaks and other stuff the player can go out of their way to accomplish.
+- Kuro-chan is responsible for finding most of content. Gage Holston
+  contributed a good-size amount to this document, as well. A few entries were
+  also found by others such as Space Quest Historian and Sierra Arts (Full list
+  is at the bottom of the document), but further research was conducted on them
+  (such as which versions had the glitch, additional in-game consequences,
+  etc.).
 - For some reason, 'dos' is a swear word.  Obviously, the development team
-  missed making games for Apples.
+  missed making games for Apple computers.
 - You can (sometimes) answer with affirmative / y for yes and n / negative for
   no.
+- debug mode may be required for a few of the more unique gltiches, crashes and
+  other problems in order to see what happens under some more unique
+  circumstances.  To use it, press both shift keys and the minus key on the
+  numeric keypad
+- 'kiss angel of death' can enter an unofficial debug mode that gives the
+  player the ability to manipulate certain odds and ends like inventory and
+  teleporting to another room.
+  - For J1.000.052, you can still type in 'kiss angel of death', but it appears
+    all the keys are routed through the CTRL key, instead of ALT (which is used
+    for katakana, it seems)
+  - Do not use the room teleport while a script is auto-running, or else
+    it will lock the game up, leaving only menu access open.
 
--------- DIFFERENT SOUND JINGLE --------
+
+---------------------------- DIFFERENT SOUND JINGLE ---------------------------
 
 - There is an unused sound track which the JP version of the game uses when the
   player scores points. In the resource files, it's sound.049
 
------------- DRIVER TIMERS -------------
+
+-------------------------------- DRIVER TIMERS --------------------------------
 
 - First countdown starts at 700 seconds and gradually goes down to 1. When you
   enter Homicide (while it's at 1), the 1st assignment gets triggered and the
@@ -51,25 +119,40 @@ game. Well.. that was a mistake, because he broke the fuck out of it!"
   captain gives you your orders (By the time he's done talking, you'll have
   lost nearly 15 seconds).
 
-  This timer can be sped up in two ways:
+- This timer can be sped up in two ways:
   - Driving around in your vehicle accelerates how quickly this depletes.
+    Due to how the game treats the personal car over the unmarked car during
+    disciplinary action, this only resets the 1st timer,
   - Sighting your gun and collecting the field kit sets the value to 1.
+    Useful for speedruns, but demolishes low score runs.
 
 - Each of these events will set the timer to 5 minutes, giving the player that
   much in-game time to get there.
-   - Go to Jail
-   - Go to Mall
-   - Go to Cotton Cove
-   - Return to Cotton Cove (IF you pursued Bains)
-   - Go to Warehouse **
+  - Go to Jail
+  - Go to Mall
+  - Go to Cotton Cove
+  - Return to Cotton Cove (IF you pursued Bains)
+  - Go to Warehouse **
 
-** Warehouse one is a little different. Day 2 starts with a 10-minute countdown
-   to give the player enough time to get into the Homicide office where the
-   captain gives his orders to get your butt down to the Warehouse, THEN the
-   5-minute counter starts.
+  ** Warehouse one is a little different. Day 2 starts with a 10-minute
+     countdown to give the player enough time to get into the Homicide office
+     where the captain gives his orders to get your butt down to the Warehouse,
+     THEN the 5-minute counter starts.
+     Honestly, it does not matter how long it takes for Sonny to get in the
+     office; it is not like he can go anywhere with the Sonnymobile and the
+     timer can go all the way down to 1 without consequence.
 
-- When the game first boots up The driver timer set to 700 and counts down the
+- When the game first boots up, the driver timer set to 700 and counts down the
   same way as starting a new game.
+
+- Driving anywhere (in the Sonnymobile) while a timer is counting down will
+  cause the timer to greatly accelerate.
+  There are also instances (notably Cotton Cove and Warehouse) where getting
+  into the Sonnymobile will knock the regular timer down to 3, which will
+  quickly expire the existing timer, landing the player in serious
+  trouble as soon as they try to do anything else in the game. If this is still
+  on the first timer, the second timer will be set to 600, though this will be
+  updated after some 'quality time' with the captain.
 
 - If you wish to maniuplate the driver timers to see some unique glitches and
   bugs, do the following:
@@ -81,21 +164,18 @@ game. Well.. that was a mistake, because he broke the fuck out of it!"
   - Type in 159 for the 2nd variable and set it to 0.
   - Enter double-shift + D to exit debug mode and resume your game.
 
-  If you set these both to 0, the game will ignore the timers and let you
-  proceed to where you are going unhindered.
+- If you set both global variables to 0, the game will ignore the timers and
+  let you proceed to where you are going, unhindered.
 
--------------- INVENTORY ---------------
+
+---------------------------------- INVENTORY ----------------------------------
 
 - What flowers Sonny has purchased at the airport will show up differently in
   inventory.
 - The checkmark on the hit list is ... backwards?
 
-- Driving anywhere (in sonnymobile) while a timer is counting down will cause
-  the timer to greatly accelerate. There are also instances where getting into
-  the sonnymobile will knock the regular timer down to 5 or less, which will
-  quickly expire the existing timer, landing the player in serious trouble.
 
------------ NAME SUBSTITUTES -----------
+------------------------------- NAME SUBSTITUTES ------------------------------
 
 office       barn
 field kit    briefcase
@@ -103,14 +183,250 @@ marie        cheeks
 toilet       crapper
 
 
+-------------------------------- OUT OF BOUNDS --------------------------------
+
+Several rooms in Police Quest II will attempt to return the player back to the
+screen if they attempt to walk out of bounds.  There is a certain distance the
+game will use to force the player back to the screen before the automatic
+redirect ends.
+
+During normal movement, the player will move 3 units left/right when going
+straight, 2 units up/down and 2 units in both the x & y direction, depending
+on which way the player is traveling. This means Sonny moves a bit faster when
+going straight left or straight right.
+
+In order to glicth the out-of-bounds setup, the player must execute the auto-
+return and manage to not cross back into the threshold. A lot of this will
+depend on if there is something that can prevent the player from returning
+to the normal area. Usually something that can block the path (for instance,
+a vehicle on the road). Each room handles this different from others, so
+some it is possible to clip around a room and end up on the other side (due
+to how integers wrap around when you continue to increase / decrease the value.
+There are rooms, however, where it is possible to be stuck in a permanent
+message loop because the player cannot break out of the restraints of the
+return script. Again, this is all depending on which room this happens in, but
+the game may require a complete system reset, depending on if the player can
+break out of the endless textbox spawning.
+
+It is easiet to exploit this if the game is set to slow speed, which makes it
+easier for the game to register the rapid pressing of whichever direction the
+player wishes to go.
+
+The game 'appears' to respond to the numeric keypad a lot better than the arrow
+key setup (This could simply be a matter of perception, but it does seem to
+break the game more efficiently).
+
+The following list applies to all screens with some sort of redirect for an
+attempt to go out of bounds:
+
+Location                                X-Return  Y-Return  Can Glitch?  Reset?
+-------------------------------------------------------------------------------
+pic.001 -- Station, Outside                +6        N/A       No          --
+pic.014 -- Airport, Parking Lot            +/- 6     +4        No          --
+pic.015 -- Airport, Traffic Crossing       +/- 6     N/A       Yes         No
+pic.017 -- Airport, Escalator              -6        -4        No          --
+pic.025 -- Motel Parking Lot **            -6        +/- 4     Yes         Yes
+pic.027 -- Warehouse                       +/- 6     -4        Yes         Yes
+pic.029 -- Arnie's, Outside                +/- 6     -4        Yes         No
+pic.031 -- Marie's House, Outside          +/- 6     N/A       No          --
+pic.060 -- Cotton Cove (Middle)            N/A       -4        No          --
+pic.061 -- Cotton cove (right)             -6        -4        No          --
+pic.062 -- Cotton Cove (Left)              +6        -4        No          --
+pic.065 -- Cotton Cove, Underwater right * +/- 6     N/A       No          Yes
+pic.067 -- Oak Tree Mall                   +/- 6     -4        Yes         Yes
+pic.078 -- Burt Park, Entrance             N/A       -4        No          --
+pic.200, 201, 203, 204 -- Sewer            N/A       -4        No          --
+
+* Given that the game is constantly forcing the player to move +1 along the x-
+  axis, it is impossible to get back into the map.
+
+** Motel Parking Lot also makes sure your y-value cannot exceed 132, making it
+   impossible to clip around.
+
+Marie's House and Police Station both have a built in game over when the
+Y-position reaches a certain value beyond the bottom of the screen.
+
+A curious bug happens where if the player's Y-position exceeds 25000, the
+X-positon will also start to climb up, albeit slowly.
+
+
+------------------------------- COMMON GLITCHES -------------------------------
+
+KEITH COCKLOCKS YOU
+
+- This works when the player tries to walk outside the bounds of the screen.
+  After being given some text about how Sonny will return, the player will
+  automatically walk back in. However, if Keith is directly behind the player
+  when this happens, Sonny is prevented from returning to the screen which
+  forever locks the player in a textbox cycle.
+- Most of the time, the only way out of this is to kill the program. If this
+  is played this on an old system powered by DOS, this will require a system
+  reboot.
+- It may be easier to perform this glitch by killing the game speed down to
+  minimum. Much of the time, you need Keith in a pixel-perfect position so
+  Sonny can go around him (if it applies), get to the wall that automatically
+  walks you back into the room so you can get him locked in place.
+
+INFINITE POINTS
+- The most common type of infinite points is to collect evidence that will not
+  be removed from a scene (yet or ever, depending on the situation), allowing
+  the player to return to the station, book the evidence, then return to the
+  scene of the crime to collect it again).
+
+Common locations include:
+- Burt Park > Accosting the mugger with your walkie talking while being close
+              to the screen edge so Keith does not have enough time to catch
+              him.
+            > Clipping through the scene to reach the sewer entrance after
+              using the walkie talkie to chase off the mugger.
+- Mall > Get the print from the car.
+- Airport > Get the print from the car.
+- Marie's House > Get the print from the ashtray.
+- Motel Room 108 > Get the envelope.
+
+
+
+MOONWALKING
+
+- To perform this, the player must press a directional key as the game loads
+  between the in- vehicle screen and the location screen as Sonny gets out of
+  the car. If done right, the player will start to move in a direction,
+  regardless of which way he is facing, which can result in an unusual
+  'moonwalking'-like appearance.
+- Depending on location, the player may or may not clip through walls.
+- Alternatively, there are a instances where the instructions for how to
+  perform this bug will be stated.
+
 -------------------------------------------------------------------------------
                                    LOCATIONS
 -------------------------------------------------------------------------------
 
+The usual layout is as follows:
+
+- General notes about the map, perhaps some extra odds and ends the players
+  may not be familiar with.
+- COMMANDS: Some unusual or unexpected commands the player can enter.
+- BUGS: Stuff that causes weird events, glitches, soft and hard locks to
+        happen.
+- ODD CODING: This is for events or content that do not hurt the game, but
+              can produce some unexpected / unusual results.
+- LEFTOVER BITS: Stuff that had potential to be used, but simply was not...
+- FOR FUN: While not intentional, on rare occasions, something can happen in-
+           game that has proven to be unexepectedly entertaing. This does not
+           include the number of times Keith's poor pathfinding can cause the
+           player to wait a considerable amount of time on the screen.
+
+Abbreviation  Platform      Version
+--------------------------------------
+1.000         DOS           1.001.000
+1.006         DOS           1.001.006
+A1.006        Atari ST      1.001.006
+J1.052        PC-9801       J1.000.052
+1.024         Amiga         1.024
+2.011         DOS           1.002.011
+
+-------------------------------------------------------------------------------
+Non-Room Specific Comments/Observations
+
+Air Tank
+- If the player uses debug to set global 191 to 32768 while underwater, they
+  will have unlimited air.
+- Player loses 11 air when they get the "low on air" warning (The 52 jumps
+  straight to 39, instead of 50).
+- Player loses 8 air when they get the "out of air" warning (17 jumps to 7,
+  instead of 9). Game over happens immediately after.
+
+Bouyancy, Much?
+- Buoyancy is spelled with an "ou" instead of "uo" which is 'technically' still
+  right, though it is used less often. The parser allows for both spellings when
+  getting the belt in the van.
+- This applies to all versions of the game.
+
+
+-------------------------------------------------------------------------------
+Non-Room Specific Bugs/Issues
+
+Fail to Set Driver Timer               1.000   1.006   J1.052  1.024   2.011
+                                         X       X       X       X       X
+- After completing the game's start up and the player is given orders to go to
+  jail, the player has the option to glitch out the driving timer so it will
+  stay at zero until the next objective is set. (Normally) what is supposed to
+  happen is if the driver timer ever hits 1, either Hall goes on the radio or
+  Sonny gets pulled over by a cruiser while on the road. While this setup works
+  well for the unmarked car, PQ2 neglected to include code for Sonny's vehicle.
+  IF the player runs out of time while in Sonny's personal vehicle (called the
+  Sonnymobile in this reference), it does not get set to a new value and both
+  timers are left at 0, allowing the player to take their time and do whatever
+  they want until they complete the current objective/scenario.
+- This does not work when VAR 100 is set to 5 (Cotton Cove Scenario) and 10
+  (Warehouse scenario). What happens instead is the current timer is set to
+  3 and 'if' the player is still running off the first driver timer, then the
+  second one is set to 600. The second one will be updated with the proper
+  timer
+- This does not work at the start of the game. Even if the player exhausts the
+  timer, the driver timer is set to 300 when VAR 100 is set to 1, so you will
+  always have a timer when the main part of the game gets underway. On the
+  plus side, this means that it is not possible to get in trouble when using
+  this exploit to speed up getting orders.
+
+Open Wallet                            1.000   1.006   J1.052  1.024   2.011
+                                         X       X
+- Player can type 'Open Wallet' to get a description of the wallet that
+  includes Sonny's badge. The problem is, this can be performed regardless of
+  whether or not the player has obtained the wallet.
+
+The Driving Music Follows You          1.000   1.006   J1.052  1.024   2.011
+                                         X       X       X       X       X
+- The player can interrupt the tail end of the unmarked vehicle driving
+  sequence by entering F4 / 'open door' as Keith and dispatch radio their final
+  confirmation of where you are driving to. This has the added effect of
+  continuing the driving music playing in the background.
+
+Who Needs a Vest?                      1.000   1.006   J1.052  1.024   2.011
+                                         X       X       X       X       X
+- This is more theory than an actual bug, but there is an issue with the code
+  where the air consumption while navigating Cotton Cove's river is almost
+  unaffected by wearing the Buoyancy Control Vest (BCV, vest, etc.).
+- The players starts with 2200 units of air (assuming they picked the correct
+  tank, otherwise, it's going to be a very short dive). We can remove:
+  - 92 units for the time needed to reach the bottom of the river.
+  - 11 units for the low air warning (Do not ask why they did this, it is part
+    of the code; perhaps, they had an issue with the condition check there).
+  - 7 units for when the air reaches near-zero (Yes, they kill the player
+    before it reaches zero).
+  Based on a normal game speed of 6, which works out to around 10 frames per
+  second, that gives the player 1 minute, 44.5 seconds before they completely
+  run out of air and get a game over. However, since most players (typically)
+  do not play Police Quest II 'that' slow, they will have far less time to get
+  all the points. To further complicate the short amount of time available,
+  much of this time will be spent moving againt the current to get one piece of
+  evidence.
+- The left-side river screen has a different air consumption rate. This is
+  likely due to the importance of this screen and the extra steps required to
+  uncover the evidence, here.
+  - 4 units every 3 frames without the vest. (1.333 per frame, average)
+  - 4 units every 6 frames with the vest. (0.667 per frame, average)
+  This is where the vest benefits the player.
+- The given speculation is that the air consumption (on the middle and right
+  screens) is based on not wearing the vest, which barely leaves enough time
+  for the player to go straight to the three objectives and do what is needed.
+  The normal (with vest) air consumpton would likely be 1 per frame, which
+  would leave the player 3 minutes, 33.6 seconds, a far more respectable time
+  to conduct a 'proper' exploration of the bottom of the river. This also leads
+  to the right side of the screen being 1/3 slower than normal.
+
+  NOTES:
+  * With the right screen, they use a == for the frame counter to make sure
+    the value was 0 before they reduced air value. The middle and left screens
+    used a >=, meaning they ignored any checks for a frame counter and deducted
+    the value per frame.
+
+
+-------------------------------------------------------------------------------
 pic.001 -- Station, Outside
 
 - The game starts you off with no flags set (aside from whatever 'starts' the
-  game), 0 points and a 700-second countdown before the Captain gives you your
+  game), 0 points and a 700-second countdown before the captain gives you your
   first orders. This timer is automatically set to 0 after the gun has been
   sighted and the field kit has been collected. If the player is worried they
   may not have enough time to earn all the possible points at the station
@@ -120,27 +436,52 @@ pic.001 -- Station, Outside
 - The flag does not animate in the JP version of the game.
 - If the player waits long enough on this screen without any keys, a message
   will pop up having Sonny ask himself, "Now where are my keys?".
+- 'Get naked' produces a dialogue response without a game over.  This only
+  works in 1.001.000 and 1.001.006. However, 'Remove clothes' appears to
+  work in all versions.  'piss' also produces a similar result.
 
 ** COMMANDS:
-   - look time
-   - salute flag
-   - look mirror
+- look time
+- salute flag
+- look mirror
+- get naked, remove clothes
+- take piss
 
 ** BUGS:
-   - The Moonwalking glitch can be done at the office. To perform this, the
-     player must press a directional key as the game loads between the in-
-     vehicle screen and the location screen as Sonny gets out of the car. If
-     done right, the player will start to move in a direction, regardless of
-     which way he is facing, which can result in an unusual 'moonwalking'-like
-     appearance. Unlike other rooms, the player can walk into walls.
-     This was (mostly) fixed by version 1.002.011. It is still possible to do
-     this at the office using Sonny's personal vehicle.
+Moonwalking                            1.000   1.006   J1.052  1.024   2.011
+                                         X       X       X       X       X
+- The player will walk and respond to anything that blocks Sonny's path.
+- Both vehicles are affected by this in 1.001.000. By 1.001.006, this is
+  restricted to Sonny's personal vehicle.
+
+** ODD CODING:
+Lock THIS!                             1.000   1.006   J1.052  1.024   2.011
+                                         X       X       X       X       X
+- The player can unlock the door, retreat before the door is open and the door
+  remains unlock, DESPITE dialogue saying it automatically locks when closed.
+
+Nosey Fence                            1.000   1.006   J1.052  1.024   2.011
+                                         X       X       X       X       X
+- The player can walk diagonally along the fence opening that leads to the
+  street (bottom fo the screen). By hugging the fence edge, the player can walk
+  diagonally up or down towards the fence and the player will still move
+  vertically. Normally, a path block should stop player movement.
 
 -------------------------------------------------------------------------------
 pic.002 -- Station, Main Hallway
 
-(One of the rare, few instances where nothing is broken or unexpected commands
-are found)
+- One of the rare, few instances where nothing is broken or unexpected commands
+  are found.
+- Booking the hit list and business card allows the player to skip the
+  conversation with the captain regarding leads on where to go next.
+
+** ODD CODING
+An Orat-on-a-Stick, Perhaps?           1.000   1.006   J1.052  1.024   2.011
+                                         X        X       X      X       X
+- The y-position for dealing with the field kit locker spans across the height
+  of the narrow hallway. Given how little room there is to navigate, it is not
+  'that' large a range. More interesting is the player does not have to face
+  the direction of the locker to open it.
 
 -------------------------------------------------------------------------------
 pic.003 -- Station, Narcotics
@@ -153,8 +494,8 @@ pic.003 -- Station, Narcotics
   verb2:  cocaine, dope, drug, narcotic, complaint, difficulty, problem,
           trouble, investigation
 
-  This also requires the player has been on the computer and has accessed
-  the personnel file.
+  This also requires the player has been on the computer, access the personnel
+  folder and bring up Lloyd's file.
 - The cabinet in the back can give you access to the narcotics files, which
   happen to include Don Colby's address (even though it's listed as classified
   on the computer... Seriously, was anyone paying attention when they put
@@ -165,6 +506,16 @@ pic.003 -- Station, Narcotics
 - Talking to Steve will allow him to recite one of his many poetry entries
   that he made up. You can also ask for a poem (No, please don't. Seriously,
   don't do it).
+- You can ask Lt. Dooley for help accessing the cabinet or computer, if you
+  want.
+
+** ODD CODING:
+Talk 'Person'                          1.000   1.006   J1.052  1.024   2.011
+                                         X       X       X       X
+- When asking / talking to someone in the room, if you do not use a specific
+  name (Dooley, Kim, Lloyd, Steve), you will get a "You're not close enough."
+  response, rather than something that better describes reality, like, there is
+  no one by that name in the room.
 
 -------------------------------------------------------------------------------
 pic.004 -- Station, Homicide
@@ -172,39 +523,109 @@ pic.004 -- Station, Homicide
 - If you fail to hang up your keys after you are done your shift, the captain
   will instruct you to leave the keys on his desk. This process will repeat if
   you go back in to recover the keys.
+- 'look score' saves a step when examining the bulletin board.
+- 'Open drawer' works in the JP version of the game. The other versions require
+  'Unlock drawer' to gain access.
+- The 'letter' in the drawer is also called a note in 1.001.000 and 1.001.006.
 - If you show up at the office between going to the hotel and going to Marie's,
   the Captain will comment on what happened at the hotel and what Bains may be
   after.
+- At the start of Day 2, the captain directs Sonny to the warehouse. During
+  this, the driver timer (Global158) is set to 300 in 1.001.000 and 600 in
+  all other versions.
 - After the Captain is made aware of Marie's kidnapping, if you bring up (or
   show) the hit list, the Captain will give you directions on what to do. If
   you have gathered enough evidence at the motel, he will direct you to chase
   down Colby before Bains kills him (which is where the idea of going to
   Steelton sorta comes from). Otherwise, he tells you to continue
-  investigating. The funny part is: The hitlist is the item you need to
-  'convince' the game that you have gathered enough evidence so you can book a
-  flight. Giving the captain the hit list also removes it from your inventory,
-  preventing the player from achieving the full score.
+  investigating. The funny part is:
+  - In 1.001.000, you need the Hit list AND/OR the business card to 'convince'
+    the game that you have gathered enough evidence so you can book a flight.
+    Specifically, both are not required.
+  - In 1.001.006 and all proceeding versions, the hit list AND business card
+    are required. If the player speaks to the Captain with only one in-hand
+    and not (at least) booked the other one, this will soft lock the game;
+    giving evidence to the captain does not update that it was booked. The
+    captain will only update Global 100 to 13 (Fly to Steelton) if both
+    pieces of evidence pass his inspection.
+    To get through this part, the player must:
+    - Already have booked both pieces of evidence (You can skip this entire
+      section if you did that).
+    - Book one piece and give the captain the other.
+    - Give the captain both pieces at the same time.
+  Giving the captain the hit list / card also removes it from your inventory,
+  preventing the player from achieving a full score.
+- "Your partner, Keith Robinson, is an easy-going veterin detective"...
 
-COMMANDS:
-  - ask, get orders
+** COMMANDS:
+- ask, get orders
 
-BUGS:
-  - During Day 2, if the player has a conversation with the captain that
-    overrides the usual conversation (with him giving orders to go to the
-    Warehouse). The only way for this to occur is for the player to visit
-    Marie's house before they see the Captain. At that point, the player should
-    access the phone (This does not work with the computer), then hang up. The
-    captain will give his orders to go to the Warehouse, but Sonny is nowhere
-    to be seen.
-    This occurs in all versions of Police Quest II. In V.1.001.000, Sonny will
-    float across the screen during the conversation with the Captain (after
-    using the phone).
-    This situation cannot occur under normal circumstances, given how the game
-    bugs out on the timer as soon as Sonny tries to drive to Marie's house
-    after he arrives at the station. To fix this, enter debug mode immediately
-    after the window background changes to driving through town (You only have
-    half a second to work with, give or take, so this has to be done quickly)
-    and fix the driver timers.
+** BUGS:
+COLBY IS RIGHT HERE, FOR THE LOVE OF-- 1.000   1.006   J1.052  1.024   2.011
+                                         X
+- If the player attempts to book Colby's business card as evidence, the captain
+  will behave as though Bains has no idea where Colby is. The only way to
+  convince him is to present the card, yourself. Fortunately, it does impact
+  global 100's update to 13, which allows the player to fly to Steelton.
+- In all other versions, the captain verifies that Bains will go after Colby if
+  the card had been turned in.
+
+Do NOT Interrupt the Captain           1.000   1.006   J1.052  1.024   2.011
+                                                 X       X       X       X
+- Attempting to interrupt the captain while he is talking to you about where
+  Bains is going will result in him flapping his mouth without end and saying
+  nothing in the process. This locks the game, except for menu access.
+- This is easiest to attempt if you turn in the hit list, but try to show the
+  captain the business card after he asks if Bains will go for Sonny or Colby
+  next.
+- In 1.001.000, the captain will restart the conversation (from the beginning)
+  if he is interrupted.
+
+Letters Are For Keeping                1.000   1.006   J1.052  1.024   2.011
+                                         X
+- Returning the note/letter to the desk does not cause the note to reappear in
+  the drawer. Closing/opening the drawer again will correct this.
+
+Locks Are For Wussies                  1.000   1.006   J1.052  1.024   2.011
+                                         X       X       X
+- The player can open the drawer to the desk after typing in 'lock drawer'.
+
+** ODD CODING:
+He's busy, Jim                         1.000   1.006   J1.052  1.024   2.011
+                                         X       X       X       X
+- Jim always responds with "I'm on the phone", especially when he is not.
+- 1.002.001 fixes this by making sure Jim is on the phone 24/7.
+
+No Comprende Close                     1.000   1.006   J1.052  1.024   2.011
+                                         X
+- Typing in 'close' does nothing to close the drawer. The full command 'close
+  drawer' must be entered in.
+
+Talk 'Person'                          1.000   1.006   J1.052  1.024   2.011
+                                         X       X       X       X
+- When asking / talking to someone in the room, if you do not use a specific
+  name (Captain, Jim, Keith), you will get a "You're not close enough."
+  response, rather than something that better describes reality, like, there is
+  no one by that name in the room.
+
+** FOR FUN:
+More Important Conversation            1.000   1.006   J1.052  1.024   2.011
+                                         X       X       X       X       X
+- During Day 2, the player can have a conversation with the captain that
+  overrides the usual dialogue (gives orders to go to the Warehouse).
+- The only way for this to occur is for the player to visit Marie's house
+  before they see the Captain. At that point, the player should access the
+  phone (This does not work with the computer), then hang up. The captain
+  will give his orders to go to the Warehouse, but Sonny is nowhere to be
+  seen.
+- In 1.001.000, Sonny will float across the screen during the conversation
+  with the Captain (after using the phone).
+- This situation cannot occur under normal circumstances, given how the game
+  bugs out on the timer as soon as Sonny tries to drive to Marie's house
+  after he arrives at the station. To fix this, enter debug mode immediately
+  after the window background changes to driving through town (You only have
+  half a second to enter the mode, give or take, so this has to be done
+  FAST) and set the driver timers (158 & 159) to 0.
 
 -------------------------------------------------------------------------------
 pic.005 -- Station, Locker Room
@@ -224,32 +645,91 @@ pic.005 -- Station, Locker Room
 
   And yes, the flush verb is connected to a different set of nouns compared
   to the use verb.
+- "The lock on your locker is is not the type you can pick."
 
 ** COMMANDS:
-   - crawl under stall
-   - knock
-   - talk cop
-   - bath hand, face
-   - drink water
-   - find locker
+- crawl under stall
+- knock
+- talk cop
+- bath hand, face
+- drink water
+- find locker
+
+** ODD CODING:
+Open the Air!                          1.000   1.006   J1.052  1.024   2.011
+                                         X
+- The player can try to open a locker door anywhere in the room, especially
+  Sonny is not in front of one.
+- By 1.000.006, this was re-written to tell players to get closer to the door.
 
 -------------------------------------------------------------------------------
 pic.006 -- Station, Burglary
 
 - Sonny gets another chance at being a playboy.
+- This is the only office where personnel randomly disappear from their desks,
+  aside from Simpson (who is the only one you are required to talk to to get
+  full points).
 
 ** COMMANDS:
-   - ask serial number (after motel incident)
-   - talk holt (was holt her original name?)
-   - kiss, pinch, fuck woman
-   - empty garbage
+- ask serial number (after motel incident)
+- talk holt (was holt her original name?)
+- kiss, pinch, fuck woman
+- empty garbage
+
+** ODD CODING:
+Gomez is My Maiden Name                1.000   1.006   J1.052  1.024   2.011
+                                         X       X       X       X       X
+- Laura Gomez does not respond to 'Gomez' when entering in 'talk/ask' in the
+  parser. She will, however, respond to Holt.
+
+Kissing a Ghost                        1.000   1.006   J1.052  1.024   2.011
+                                         X       X       X       X       X
+- The player can try to kiss the female cop while she is not there, but cannot
+  perform more...  interesting acts.
+
+Talk 'Person'                          1.000   1.006   J1.052  1.024   2.011
+                                         X       X       X       X
+- When asking / talking to someone in the room, if you do not use a specific
+  name (Adams, Gomez, Jerome, Simpson), you will get a "You're not close
+  enough." response, rather than something that better describes reality, like,
+  there is no one by that name in the room.
+
+-------------------------------------------------------------------------------
+pic.007 -- Station, File Cabinet
+
+- This is used by both the Narcotics and Homicide offices.
+- Sonny's direction is always set to face 'up' when done with the cabinet.
+- In the Homicide Office, Sonny's position is always reset to a fixed value
+  (x:255, y:147) after closing the cabinet.
+
+** BUGS:
+Going Up?                              1.000   1.006   J1.052  1.024   2.011
+                                         X       X       X       X       X
+- In the Narcotics office, the player will walk upwards, when possible, after
+  closing the cabinet.
+
+Wandering Sonny                        1.000   1.006   J1.052  1.024   2.011
+                                         X       X
+- Using the arrow keys or mouse, Sonny can move a unit at a time across the
+  previous screen while looking at the toilet tank. Upon 'exit', the player
+  will appear at a different point on the map based on what they hit/clicked.
+- This applies 'only' to the Narcotics office.
+- This can also softlock the player if they position themselves in a path
+  blocker after closing the cabinet.
+
+** ODD CODING:
+Be More Specific!                      1.000   1.006   J1.052  1.024   2.011
+                                         X       X               X       X
+- The Narcotics cabinet specifically requires the player to 'close cabinet'.
+  In Homicide, 'close' is sufficient.
 
 -------------------------------------------------------------------------------
 pic.008 -- Station, Computer
 
 ** COMMANDS:
-   - look book, instruction, cocksucker
-   - exit, walk, go, quit, logout, bye
+- look, talk, fuck, shit
+- look book, instruction, cocksucker, motherfucker
+- exit, walk, go, quit, logout, bye
 
 -------------------------------------------------------------------------------
 pic.009 -- Station, Locker
@@ -258,8 +738,8 @@ pic.009 -- Station, Locker
 - Gun is also referred to as "9mm, gunbelt".
 
 ** COMMANDS:
-   - kiss flyer, pinup, poster, button, buzzer (picture of Marie)
-   - get flyer
+- kiss flyer, pinup, poster, button, buzzer (picture of Marie)
+- get flyer
 
 -------------------------------------------------------------------------------
 pic.010 -- Station, Shooting Gallery
@@ -268,72 +748,149 @@ pic.010 -- Station, Shooting Gallery
 - The counter is also called a "bookcase" and "coatrack".
 
 ** COMMANDS:
-   - check, display gun
-   - give, gave 9mm
-
-** BUGS:
-   - Repeatedly pressing PgUp/PgDown (Or 7/9 with the numeric pad) will cause
-     Sonny's arms to move beyond the usual maximum vertical range giving them
-     the impression they are floating in the air.
-     This glitch does not appear 1.001.000, but was introduced in 1.002.011 and
-     is carried into JP1.000.052.
-   - Raising Sonny's arms to fire his gun at the target while the target is
-     moving will result in the arms moving at a slow pace.
+- check, display gun
+- give, gave 9mm
+- return ammo
 
 -------------------------------------------------------------------------------
 pic.011 -- Station, Shooting Gallery
 
-- If you try to fire the gun while it is not up and the target is riddled with
+- If you try to fire the gun while it is down and the target is riddled with
   holes, you are told to replace the target, rather than die.
 - You can (safely) fire five times without hearing protection on. For a low-
   score run, this is more than enough room to ensure you can sight the gun.
   The sixth shot is game over.
 - Enter in "View" while the target is halfway and the game will tell you that
   the target is 'as close as it will get'.
+- Enter in "Press Back" while the the target is moving away you will be told
+  to wait.
 
 ** COMMANDS:
-   - Adjust target, bullseye
+- Adjust target, bullseye
 
 ** BUGS:
-   - The infamous "Arms hovering in the air" glitch can be found here. To
-     achieve this, keep pressing the diagonal keys "Numpad 7 & 9" or "Home &
-     PageUp" until the arms start to float up. They can be floated above and
-     outside the game window.
-   - If you raise arms while the target is moving, the arms will move up a LOT
-     SLOWER...
+He Likes to Aim More Carefully...      1.000   1.006   J1.052  1.024   2.011
+                                         X       X       X       X       X
+- If you raise arms while the target is moving, the arms will move a LOT
+  SLOWER...
+
+Sonny's Arms Now Detach!               1.000   1.006   J1.052  1.024   2.011
+                                                         X       X       X
+- The infamous "Arms hovering in the air" glitch can be found here. To
+  achieve this, keep pressing the diagonal keys "Numpad 7 & 9" or "Home &
+  PageUp" until the arms start to float up. They can be floated above and
+  outside the game window.
 
 -------------------------------------------------------------------------------
 pic.013 -- Unmarked Car Interior
+
 - Talking to Keith forces him to bring up his bad habit of smoking.
 - If you type 'drive to murder' or 'drive to death' on the start of day 2, you
-  are taken to the warehouse. Otherwise, you get Keith saying there are no
+  are taken to the Warehouse. Otherwise, you get Keith saying there are no
   murders to follow up on.
 - There are various places from PQ1 you can type in as places to go, but you
   cannot visit them. The game cites them as places that no longer exist. These
   include: Caffeine Castle, Hotel Delphoria, Blue Chamber and Drunk Willie.
-- Driving to 5556 fig ave. will give the response "You have hotter leads to
-  follow". This remains unexplained.
 - Restaurant goes by "Arnie", "Date", and "Chow"
 
 ** COMMANDS:
-   - draw gun
+- draw gun
+- drive car
+- drive murder
+- pursue bains
+
+** BUGS:
+Premature Exit                         1.000   1.006   J1.052  1.024   2.011
+                                         X       X       X       X       X
+- It is possible to use the parser to open the door before arriving at the
+  final destination. This can be done just before the text boxes pop up
+  confirming your arrival.
+
+This Sounds Weird...                   1.000   1.006   J1.052  1.024   2.011
+                                                                 X
+- It is possible for the music instruments to get messed up if a background
+  music (cove, airport) is still playing when it should not be after the score
+  jingle is played.
+
+** LEFTOVER BITS:
+- 'drive 5556 fig ave.' will give the response "You have hotter leads to
+  follow". This remains unexplained, though the envelope sent to Woody Roberts
+  has the address "5556 OAK ST" on it, suggesting (at one point) it may have
+  been an option to visit.
 
 -------------------------------------------------------------------------------
 pic.014 -- Airport, Parking Lot
 
 - If you examine the inside of the car after radioing for a tow truck, Keith
   will say he'll radio one in after leaving the screen (this is repeated so
-  long as the player keeps examining the vehicle before it's towed away)
+  long as the player keeps examining the vehicle before it is towed away)
 
 ** COMMANDS:
-   - look sock
-   - look under auto
-   - look up
-   - look plane
-   - look tower
-   - look crowd
-   - frisk auto
-   - drive
+- look sock
+- look under auto
+- look up
+- look plane
+- look tower
+- look crowd
+- frisk auto
+- drive
+
+** BUGS:
+Attempt to Ditch Keith: Failed         1.000   1.006   J1.052  1.024   2.011
+                                         X       X       X
+- It is possible to attempt to leave the parking lot and Keith will not return.
+  Go up to the next scren, go back down and 'open door'. Keith would yell to
+  wait up, but he ends up stuck behind a car (or something else; we cannot see
+  him since it he out-of-bounds) and be unable to return to vehicle, locking
+  the game, aside from menu access.
+
+Cannot Find Keith, Huh?                1.000   1.006   J1.052  1.024   2.011
+                                         X       X       X
+- The check for when Keith is off-screen to search for the stolen car is well
+  within the bounds of the current screen. If the player tries to go off-screen
+  on the left side while Keith is also on the far-left side of the screen, you
+  will be told "You seem to have lost track of Keith, somehow", even though he
+  is still on the screen.
+
+Crashing a Parked Car                  1.000   1.006   J1.052  1.024   2.011
+                                         X
+- Attempting to identify the license plate (Not the VIN) of the stolen vehicle
+  without Keith present will result in an "Oops" being displayed and getting
+  kicked back to the DOS prompt.
+
+I Left My Brains at the Motel          1.000   1.006   J1.052  1.024   2.011
+                                                         X
+- In J1.000.052, It is possible to softlock the during the motel sequence. If
+  the player leaves after arriving at the motel (namely driving to Marie's), a
+  situation is created where it becomes impossible to complete the game because
+  Global 100 (that controls the current scenario) will never set to 13, even if
+  the player does everything right to accomplish this. Without this set, Keith
+  will not be ready to go to Steelton and he will not phone the captain for
+  authorization to purchase the tickets.
+
+Infinite Points                        1.000   1.006   J1.052  1.024   2.011
+                                         X       X       X       X       X
+- Using the Sonnymobile, the player can arrive at the airport, look at the
+  stolen vehicle, open the door and 'dust mirror' and 'get print' (assuming
+  the player brought a field kit along), return to the office, book the thumb
+  print and return to the airport to collect it again.
+- The game does not set the variable that controls that the stolen vehicle
+  has been identified when using the personal car, so the player can leave the
+  scene without getting a game over.
+
+Moonwalking                            1.000   1.006   J1.052  1.024   2.011
+                                         X
+- The player will float around the screen and clip through any path blocker.
+  The player can still exit along the top of screen where the walking pattern
+  will change and Sonny will move around slowly on the screen.
+- This can only be done with the Sonnymobile while it's pulling up to the
+  Airport parking spot at the start of the game due to how the game
+  (initially) handles Sonny's position on the screen. This will also
+  (likely) require a decent amount of advance key pressing for the moonwalk
+  to happen.
+- If the player performs this without ever exiting the vehicle, the game
+  will softlock, since Sonny will be unable to re-enter the vehicle,
+  trapping the player there.
 
 -------------------------------------------------------------------------------
 pic.015 -- Airport, Traffic Crossing
@@ -341,37 +898,75 @@ pic.015 -- Airport, Traffic Crossing
 - This is one of the locations where Sonny can behave like a playboy.
 
 ** COMMANDS:
-   - look up
-   - look down
-   - look awning
-   - ask newspaper
-   - sit down
-   - break pane
-   - frisk car
-   - drive, get car
-   - cross ave (make sure you saved first)
-   - hail cab
-   - bus
-   - write ticket
-   - polish
-   - ask cost (Flower Girl >)
-   - ask name
-   - kiss broad
-   - fuck, eat, blow broad
-   - feel boob, cunt
-   - frisk broad
-   - arrest broad
-   - dont (leaving)
-   - cease
-   - come back
-   - stay
+- look up
+- look down
+- look awning
+- ask newspaper
+- sit down
+- break pane
+- frisk car
+- drive, get car
+- cross ave (make sure you saved first)
+- hail cab
+- bus
+- write ticket
+- polish
+- ask cost (Flower Girl >)
+- ask name
+- kiss broad
+- fuck, eat, blow broad
+- feel boob, cunt
+- frisk broad
+- arrest broad
+- dont (leaving)
+- cease
+- come back
+- stay
 
 ** BUGS:
-   - The animation for opening the sliding door has an incorrect transparency
-     color. When it first opens, a bright purple briefly shows.
+Exact Change?  Nuh-uh!                 1.000   1.006   J1.052  1.024   2.011
+                                         X       X       X       X       X
+- The player must have more money than the price for the foilage.
+
+Keith Cocklocks                        1.000   1.006   J1.052  1.024   2.011
+                                         X       X               X       X
+- You can walk outside the bounds of the screen with Keith following you
+  (Easiest way is to the left just behind where you push the crossing button).
+- In J1.000.052, Keith's behaviour was adjusted so he follows Sonny at a
+  greater distance, preventing this from happening. Whether it's another
+  'cultural' adjustment, like at Arnie's, a coincidence or they knew about the
+  problem, it is resolved.
+
+Keith's Roadside is Wrong              1.000   1.006   J1.052  1.024   2.011
+                                                                 X       X
+- Upon entering the screen from the bottom-right corner, Keith will appear on
+  the other side of the road and walk across the road towards the player.
+- Curiously, the taxi is never around when Keith wants to cross.
+
+Long-Distance Purchase                 1.000   1.006   J1.052  1.024   2.011
+                                         X       X               X       X
+- Sonny can talk to the flower girl from any point on the screen once she
+  has stopped.  He can also buy flowers from the flower girl.
+- If Sonny buys a flower from her while a certain distance away (y-axis,
+  mainly), she will turn to walk away, then stop and do nothing. She does not
+  even leave the screen.
+- In J1.000.052, You have to be close to purchase something.
+
+Out of Bounds                          1.000   1.006   J1.052  1.024   2.011
+                                         X       X        X      X       X
+- On either side of the map is the ability to clip out of the room and stay
+  out. The player's y-position can also be moved, despite getting the non-stop
+  text popups that will allow the player to escape.
+- Be careful if Keith is around the player, since he can trap Sonny outside the
+  bounds.
+
+Why is the Airport So Purple?!         1.000   1.006   J1.052  1.024   2.011
+                                         X       X       X        X       X
+- The animation for opening the sliding door has an incorrect transparency
+  color. When it first opens, a bright purple briefly shows.
 
 -------------------------------------------------------------------------------
-pic.016 -- Airport, Entrance
+pic.016 -- Airport, Lobby
 
 - This is one of the locations where Sonny can behave like a playboy.
 - There is a whole list of places you 'could' buy a ticket to:
@@ -386,53 +981,135 @@ pic.016 -- Airport, Entrance
   are: Houston and Steelton.
 - If the player discovers Bains booked a flight to Houston, there is an option
   to try and pursue Bains by booking a flight to Houston as well.
+- When buying a ticket to Steelton, the game will remove the field kit from
+  inventory.
 
 ** COMMANDS:
-   - look pane
-   - look bathroom
-   - look ceiling
-   - look floor
-   - look iguana
-   - look dude (especially the one sitting down)
-   - look painting (self-insert?)
-   - get ass, cigarette (by the trash can)
-   - get luggage
-   - sit bench
-   - move bench
-   - get painting
-   - look poster
-   - *anything bains
-   - kiss, frisk, kill, beat, fire person
-   - get candy bar
+- look pane
+- look bathroom
+- look ceiling
+- look floor
+- look iguana
+- look dude (especially the one sitting down)
+- look painting (self-insert?)
+- get ass, cigarette (by the trash can)
+- get luggage
+- sit bench
+- move bench
+- get painting
+- look poster
+- *anything bains
+- kiss, frisk, kill, beat, fire person
+- get candy bar
+
+** BUGS:
+
+Keith the Clipper                      1.000   1.006   J1.052  1.024   2.011
+                                         X       X       X       X       X
+- Normally, when trying to buy a ticket, a player would stand at the front
+  counter, enter the command, "buy ticket to steelton/houston", Keith runs
+  around, makes a call and then the tickets can be purchased.
+- This can also be done from the side. "buy ticket" and "steelton/houston" can
+  be entered in separately. Even though the agent says "Would you please step
+  around to the front of the counter, sir?", the check for beginning a ticket
+  purchase is still enablded.
+- If the player enters in "steelton/houston", Keith makes his move. One of two
+  things can happen depending on the player position:
+  - If the player is along the countertop, Keith will stand behind the player,
+    then clip in front as he makes the call, the clips behind again when he is
+    done.
+  - If the player is even slightly away from the counter, Keith will try to
+    walk to his spot, but Sonny blocks him and then eventually causes the game
+    to lock up, minus access to the menu.
+
+Keith the Wanderer                     1.000   1.006   J1.052  1.024   2.011
+                                         X       X       X       X       X
+- Normally, when trying to buy a ticket, a player would stand at the front
+  counter, enter the command, "buy ticket to steelton/houston", Keith runs
+  around, makes a call and then the tickets can be purchased.
+- The easiest way to perform this is approach the female agent along the top
+  side of the desk, "buy ticket" and "steelton/houston". If Keith is beside the
+  player, Keith will start wandering all over the place, being unable to reach
+  the desk on the other side. This locks the game, barring access to the menu.
+  Some time after Keith leaves the room, this completely locks up the game.
+
+Sonny is Secretly Keith                1.000   1.006   J1.052  1.024   2.011
+                                         X       X       X       X       X
+- If the player uses the phone at the airport and presses a directional key
+  when leaving the phone screen (pic.444), the player will slide along the
+  screen until the 'hang up' animation ends, then return to the original spot.
+- If the player ues PgDown or right, Keith will appear instead of Sonny.
+
+** ODD CODING:
+Smuggling a Field Kit                  1.000   1.006   J1.052  1.024   2.011
+                                         X       X       X       X       X
+- The player is able to bring the field kit with them to Steelton if they buy
+  the tickets first (The kit is removed from inventory when the Steelton
+  tickets are purchased). However, the game assumes the player could not
+  possibly have it, thus they will always be told it was checked on another
+  flight and is now lost.
+
+** FOR FUN:
+A World of Keiths...                   1.000   1.006   J1.052  1.024   2.011
+                                         X       X       X       X       X
+- Global 252 and 255 control asking the teller for the passenger list and when
+  Keith arrives on the map. Since they both work as dual, unsigned byte, you
+  can set them as follows once Keith arrives:
+  - 252: $72c0 -> $52c0
+  - 255: $6400 to $4400
+- After Keith arrives, you can reset these two values, repeast 'ask list' and
+  have another Keith spawn. This can give the player mobility problems once
+  enough Keiths appear on the screen, but the game will crash once enough
+  Keiths are on the screen (10 in 1.001.00 and 9 in 1.002.011, for instance).
+- In 1.002.011, Having 6 or more Keiths on the screen will prevent the player
+  from saving the game.
+- J1.000.052, the global IDs may be a different number (a few numbers lower).
 
 -------------------------------------------------------------------------------
 pic.017 -- Airport, Escalator
 
 - Donald Trump is identifiable by the car rental desk.
+- "The girl who works at at the counter"...
+- "Looking around you see see a car rental agency"...
 
 ** COMMANDS:
-   - look stairs
-   - look ceiling
-   - look floor
-   - rent auto, automobile, car, vehicle, wagon, bus, mack, truck, bicycle
-   - frisk, search, arrest    man, woman, agent
-   - Kill, fire, beat    man, woman, agent
-   - *anything bains
-   - thank  man, woman, agent
+- look stairs
+- look ceiling
+- look floor
+- rent auto, automobile, car, vehicle, wagon, bus, mack, truck, bicycle
+- frisk, search, arrest -- man, woman, agent
+- Kill, fire, beat -- man, woman, agent
+- 'anything' bains
+- thank man, woman, agent
+
+** BUGS:
+Keith Cocklocks You                    1.000   1.006   J1.052  1.024   2.011
+                                         X       X       X       X       X
+- There is a spot along the bottom-left side of the screen where the player can
+  try to exit the room, but will be directed back in. While tricky to pull off,
+  with Keith in the way, this will lock the player along the screen edge,
+  perpetuating an endless dialogue box.
+
+** FOR FUN:
+Keith the Kidnapper                    1.000   1.006   J1.052  1.024   2.011
+                                         X       X       X       X       X
+- The beared man with the briefcase will try to pathfind his way around the
+  player and Keith.  They player can use Keith to 'hook' the guy and bring him
+  along for a walk across the screen.
 
 -------------------------------------------------------------------------------
 pic.018 -- Airport, Car Rental
 
 ** COMMANDS:
-   - look ceiling
-   - look floor
-   - look hats
-   - look turtle
-   - arrest man, woman, dude, broad, agent(s)
-   - get hat
-   - fire, kill, beat agent(s)
-   - thank  man, woman, dude, broad, agent(s)
-   - Rent auto, automobile, car, vehicle, wagon
+- look ceiling
+- look floor
+- look hats
+- look turtle
+- arrest man, woman, dude, broad, agent(s)
+- get hat
+- fire, kill,-- beat agent(s)
+- thank-- man, woman, dude, broad, agent(s)
+- Rent auto, automobile, car, vehicle, wagon
 
 -------------------------------------------------------------------------------
 pic.019 -- Airport, Bathroom
@@ -440,16 +1117,42 @@ pic.019 -- Airport, Bathroom
 - Curiously, there are a number of things you can do at the station bathroom
   that cannot be done, here.
 - There will be a guy in the bathroom on Day 2.
+- "You look up and see the usual bathroom ceiling with flourescent lighting
+  fixtures."
 
 ** COMMANDS:
-   - look mirror
-   - read graffiti (in a stall)
-   - drink water
-   - leak,crap (while not in a stall)
-   - frisk,search tank (allows you to skip a step)
-   - smell odor.
-   - look dude, gentleman, marshal
-   - look dirt.
+- look mirror
+- read graffiti (in a stall)
+- drink water
+- leak,crap (while not in a stall)
+- frisk,search tank (allows you to skip a step)
+- smell odor
+- look dude, gentleman, marshal
+- look dirt
+
+** BUGS:
+Two Guns, One Crash                    1.000   1.006   J1.052  1.024   2.011
+                                         X
+- It is possible to try and get the gun twice. Complete the usual process for
+  obtaining one: "Open door" "Open Toilet" "Look in" "Get gun" "Exit", but do
+  not leave the room. Attempt to repeat the process and after you type in "Get
+  gun" will result in an "Oops" and the game crashing.
+- This bug only works while Sonny remains in the bathroom. Once Sonny leaves
+  the bathroom, the toilet behaves as it should.
+- The game describes you are already having the gun when you 'acquire gun',
+  even if you have yet to obtain it.
+
+Wandering Sonny                        1.000   1.006   J1.052  1.024   2.011
+                                         X
+- This can be performed during the closeup of the toilet.
+- Using the arrow keys or mouse, sonny can move a unit at a time across the
+  previous screen. Upon 'exit', the player will appear at a different point on
+  the map based on what they hit/clicked.
+- If Sonny ends up at x:272 and y:142 (roughly), the player will be re-
+  directed to the airport lobby, but since the script is supposed to
+  automatically move Sonny to a fixed location. This does not work outside the
+  bathroom and will lock the game up, aside from menu access.
+- This can be performed on both days.
 
 -------------------------------------------------------------------------------
 pic.020 -- Airport, Security
@@ -466,48 +1169,85 @@ pic.020 -- Airport, Security
      will also trigger his response.
 
 ** COMMANDS:
-   - look floor, ceiling
-   - look jerk (near Larry)
-   - get, cut, break rope
-   - arrest Larry
-   - show gun / kill guard (save first)
-      - You can do this on the other side of the guard (show badge first, then
-        walk past the metal detector). This makes for a more entertaining game
-        over. This can only be done near the guard.
-   - F8
-      - The guard will only react if you do this along the bottom half of the
-        screen, below the metal detector
+- look floor, ceiling
+- look jerk (near Larry)
+- get, cut, break rope
+- arrest Larry
+- show gun / kill guard (save first)
+  - You can do this on the other side of the guard (show badge first, then walk
+    past the metal detector). This can make for a more entertaining game over
+    and can only be done near the guard.
+- F8
+  - The guard will only react if you do this along the bottom half of the
+    screen, below the metal detector.
 
 ** BUGS:
-   - No matter where the player is shot on the screen, Sonny will always appear
-     along the bottom middle, in front of the metal detector.
-   - Purchase a pair of tickets to somewhere, get rid of Keith, then attempt to
-     board the airplane. The game throws the player an "oops" since it
-     (normally) calls for Keith to follow the player.
-     This was fixed by version 1.002.011 (The game claims you missed the flight
-     while Keith is MIA).
+Airplane Crashes Suck!                 1.000   1.006   J1.052  1.024   2.011
+                                         X
+- Purchase a pair of tickets to somewhere, get rid of Keith, then attempt to
+  board the airplane. The game throws the player an "oops" since it (normally)
+  calls for Keith to follow the player.
+- By 1.000.006, the player is prevented from boarding the plane Keithless.
+
+Bully Larry!                           1.000   1.006   J1.052  1.024   2.011
+                                         X       X       X       X       X
+- If Sonny is along the same x-axis as larry and he's too close for his arm
+  shuffles, Larry will move one pixel away from sonny, effectively carting him
+  across the screen. It is also possible that Larry will shift down a couple
+  pixels, forcing the player to realign their position (try to line up Sonny's
+  feet with Larry's).
+
+I Have Houston Tickets! Is That OK?    1.000   1.006   J1.052  1.024   2.011
+                                         X       X
+- The player can buy tickets to Houston on day 1, keep them for day 2, proceed
+  through day 2 like usual until it is time to leave for Steelton, then use the
+  tickets in place of ones for Steelton.
+
+Physics Are For Keiths                 1.000   1.006   J1.052  1.024   2.011
+                                         X       X
+- The player can clip through the pathing blockers by drawing the gun as they
+  go down the escalator. Doing this interrupts the process and will allow the
+  player to move around the screen, even skipping past the security check.
+  However, doing this also removes the exit to the room through the escalator,
+  so unless the player has tickets, this will soft lock the game.
+
+Really, He is That Good!               1.000   1.006   J1.052  1.024   2.011
+                                         X       X       X       X       X
+- No matter where the player is shot on the screen, Sonny will always appear
+  along the bottom middle, in front of the metal detector.
+- This was 'somewhat' fixed by J1.000.052. The security guy still faces forward
+  while shooting Sonny, but now he drops dead where he was standing.
+
+** ODD CODING:
+Sidestepping Your Way Through!         1.000   1.006   J1.052  1.024   2.011
+                                         X       X       X       X       X
+- The security check scene happens while the player is walking upwards. By
+  walking diagonally, the player can walk right through the checkpoint without
+  needing to show a badge.
 
 -------------------------------------------------------------------------------
 pic.022 -- Jail, outside
 
-- The 'driving' timer is still counting down. So long as Sonny does not re-
-  enter the vehicle when it hits 1, it is a non-issue.
+- The 'driving' timer is still counting down when Sonny arrives at the Jail
+  when he is supposed to. So long as Sonny does not re-enter the vehicle when
+  it hits 1, it is a non-issue.
 - When pushing the buzzer, you can respond with (yes, y, affirmative) or (no,
   n).
+- "Disgreeable, aren't you?"...
 
 ** COMMANDS:
-   - look friend
-   - look cruiser
-   - look jailer
-   - call, holler friend
-   - exit auto
-   - knock
-   - let i
-   - acquire in
-   - unlock door
-   - close door
-   - throw gun
-   - use extender
+- look friend
+- look cruiser
+- look jailer
+- call, holler friend
+- exit auto
+- knock
+- let me
+- acquire in
+- unlock door
+- close door
+- throw gun
+- use extender
 
 -------------------------------------------------------------------------------
 pic.023 -- Jail, inside
@@ -521,13 +1261,19 @@ pic.023 -- Jail, inside
   player and returned upon leaving.
 
 ** COMMANDS:
-   - look down, up
-   - look wall
-   - ask, take, give, replace, get gun
-   - open cell, cage
-   - talk jailer
-   - talk dude
-   - open door
+- look down, up
+- look wall
+- ask, take, give, replace, get gun
+- open cell, cage
+- talk jailer
+- talk dude
+- open door
+
+**BUGS:
+Exact Change?  Nuh-uh!                 1.000   1.006   J1.052  1.024   2.011
+                                         X       X       X       X       X
+- The game will deduct $5.00 from Sonny's wallet IF the player brought Sonny's
+  gun into the jail and has $6.00 or more to chip into the 'coffee fund'.
 
 -------------------------------------------------------------------------------
 pic.024 -- Airplane, dispenser (script.042)
@@ -535,163 +1281,454 @@ pic.024 -- Airplane, dispenser (script.042)
 - You can try to 'take' the bomb (for a game over, of course).
 
 ** COMMANDS:
-   - get towel
-   - use bracket
-   - disarm bomb
-   - look timer
-   - pull, bite  --  cable, wire
-   - eat bomb
+- get towel
+- use bracket
+- disarm bomb
+- look timer
+- pull, bite  --  cable, wire
+- eat bomb
 
 -------------------------------------------------------------------------------
-pic.025 -- Motel parking lot
+pic.025 -- Motel Parking Lot
 
-- This entire section is entirely optional: It CAN be skipped.
+- In version 1.001.000, this entire section is entirely optional.
 - If the player tries to 'ask' for a warrant, they get the message they should
   call disptach.
-- An alternate to showing the mugshot is to mention the name "Bill Cole"
-  (Which is on the envelope corner you get from Woody). You will get the info
-  and the points.
+- An alternate to showing the mugshot is to mention the name "Bill Cole" (Or
+  just "Cole"), since the name is on the envelope corner you get off Woody.
+  You will get the info, points and setup for the next step in the motel
+  scenario.
 - An alternate way of trying to enter the motel room is to 'kick the door'
   (like those old police shows), but since there is no way to evade the trap,
   this will always kill Sonny.
-- Evading the trap door (while trying to open it) causes the "Gun Sighted"
-  flag to reset back to 0. There is a casual mention of Sonny slamming his
-  hand along the wall as this event happens. If the player skips the motel
-  section, there is no need to reset the gun sights prior to the airplane trip.
+- Evading the trap door (while trying to open it) causes global variable 166
+  (Gun Sighted) to be set back to 0. There is a casual mention of Sonny
+  slamming his hand along the wall as this event happens. If the player skips
+  the motel section, there is no need to reset the gun sights prior to the
+  airplane trip.
 - If the player returns to the motel after the incident has concluded, they
   will find the motel door boarded up, area taped off and an officer on standby
-  to prevent Sonny from going inside, again.
-- If the player ditches Keith partway through the motel incident, the game
-  crashes when they unload tear gas into the room.
+  to prevent Sonny from going inside, again. The player will be unable to open
+  the door even if they have the motel key (Funny enough, the player is told
+  they do not have the correct key). Kicking the door down is also disabled.
+- script.225 replaces script.25 as the go-to for the motel after the scenario 
+  has been completed (though different versions of the game arrive at this
+  script differently). A number of important changes have been observed, 
+  including:
+  - 'look' gives a very crude and basic description of the location.
+  - 'show badge' adds the wallet icon to the dialogue box.
+  - 'mug shot' cannot be used, only 'mugshot' can.
+  - Room numbers cannot be read.  
+  - Manager cannot be looked at. Trying to arrest him gives a different 
+    response.
+  - Manager does not like you, so all his commentary is nasty, though you
+    still operate with some police procedure.
+  - 'exit room' talks about leaving a room you are not in.
 
 ** COMMANDS:
-   - look watch
-   - ask warrant
-   - arrest dude
-   - ask chamber
-   - return key
-   - give cash
-   - dude cole, bains
-   - get browning (face your trunk, does not work with sonnymobile)
-   - talk friend
-   - open police
-   - police
-   - go pane
-   - look door (After it's blown open)
-   - kick door (not just Room 108)
+- look watch
+- ask warrant
+- arrest dude
+- ask chamber
+- return key
+- give cash
+- dude cole, bains
+- get browning (face your trunk, does not work with Sonnymobile)
+- talk friend
+- open police
+- police
+- go pane
+- look door (After it's blown open)
+- kick door (not just Room 108)
 
 ** BUGS:
-   - In v1.001.000, standing on the spot where the officer who delivers a
-     warrant appears will cause the AI to frantically circle around the player
-     for a couple seconds, then suddenly stop and lock the game. Players can
-     still access the menu, save, restore, etc., but will be unable to continue
-     the current game. This was fixed in later versions.
-   - The range for sonny being able to enter the unmarked vehicle is unually
-     large (vertically); the event can be triggered as high up the screen as
-     Sonny being right in front of the stairs leading to the 2nd floor of the
-     motel.
-   - The door animation is misaligned when Sonny 'kicks it down' instead of
-     opening it with the motel key.
-   - Attempting to get the Browning shotgun out of the trunk before Keith
-     grabs it will tell the player Sonny should not remove it from the trunk...
-     even though it's not there.
-   - The Moonwalking glitch can be done at the motel. To perform this, the
-     player must press a directional key as the game loads between the in-
-     vehicle screen and the location screen as Sonny gets out of the car. If
-     done right, the player will start to move in a direction, regardless of
-     which way he is facing, which can result in an unusual 'moonwalking'-like
-     appearance. Unlike other rooms, the player can walk into walls.
-     This was fixed by v1.002.011.
-   - Not having Keith and attempting to open the door (with the key) while
-     backup is there will throw an "oops" and end the game.
-     This glitch was introduced in 1.002.011 and is carried into JP1.000.052.
+
+Backup Coming Through!                 1.000   1.006   J1.052  1.024   2.011
+                                         X       X
+- Sonny is scripted to automatically move down (out of the way) when backup
+  arrives. If something is blocking Sonny from doing this (Being on the motel
+  2nd floor without a clear path down the stairs, for instance), this will lock
+  the game, aside from menu access. This happens because the game only checks
+  for Sonny's y-position without taking the x-position into account, meaning
+  Sonny will always move down when the player is too high, regardless of
+  whether or not he is in the way of the backup cruiser.
+- The player will clip through the stairs if Sonny should attempt to climb down
+  to get out of the way. This likely has to do with ego's priority not being
+  updated while moving down the screen. This was fixed along with the bug.
+
+Chuck Wears A Brown Wig!               1.000   1.006   J1.052  1.024   2.011
+                                         X       X       X       X       X
+- When Chuck fires his gun, his hair turns black for at least 1 frame. It was
+  (probably) intended for the other officer to fire his gun.
+
+Chuck Fires Twice!                     1.000   1.006   J1.052  1.024   2.011
+                                         X       X       X       X       X
+- The animation demonstrates that Chuck fires two shots at the motel room,
+  though only one appears on screen to crash through the room window.
+
+Don't Run Into Me!                     1.000   1.006   J1.052  1.024   2.011
+                                         X       X
+- Sonny is still able to walk around the screen as backup rolls in, assuming
+  Sonny is low enough to not trigger any special re-directs. The player can
+  even position Sonny in front of the vehicle as it drives in.
+
+Don't Wander Off, Sonny!               1.000   1.006   J1.052  1.024   2.011
+                                         X       X       ?       X       X
+- When the room script is updated to 225, the out of bounds handling was not
+  included.
+
+Drive to the Inn, Again!               1.000   1.006   J1.052  1.024   2.011
+                                         X
+- If Sonny goes to Marie's first, then goes to the inn (where it's already
+  closed off due an issue with the game's design), the player can get back in
+  the vehicle and drive to the inn again... and again... and again...
+
+I Have Long Legs, Today                1.000   1.006   J1.052  1.024   2.011
+                                         X       X       X       X       X
+- The range for sonny being able to enter the unmarked vehicle is unually large
+  (vertically); the event can be triggered as high up the screen as Sonny being
+  right in front of the stairs leading to the 2nd floor of the motel.
+- There are instances were, while it is rare, it is possible while facing and
+  trying to enter the vehicle near the steps can result in the game locking up,
+  except for access to the menu.
+
+I Like Your Spot!                      1.000   1.006   J1.052  1.024   2.011
+                                         X       X
+- Standing on the spot where warrant officer stops at will cause the AI to
+  frantically circle around the player for a couple seconds, then suddenly stop
+  and lock the game. Players can still access the menu, but will be unable to
+  continue the current game.
+- In Atari ST 1.001.006, the officer may not even attempt to move around the
+  player and (simply) come to a stop while locking the game.
+
+I Missed WHAT?!                        1.000   1.006   J1.052  1.024   2.011
+                                         X
+- After Sonny learns of Marie's kidnapping, the personal car check for which
+  motel script is run is set to 225 (Post-crime scene). If the player drives to
+  the motel using the personal car, they will be unable to access the motel
+  room plus the the game movement and function keys will lock up. It is
+  probable the script is waiting for Keith to get out of the vehicle and do/say
+  something (which cannot happen under the circumstances).
+- This is fixed by 1.001.006: There is no longer any unique update for the
+  personal car.
+
+Keith, you had ONE job!                1.000   1.006   J1.052  1.024   2.011
+                                                         X       X       X
+- Not having Keith and attempting to open the door (with the key) while backup
+  is there will throw an "oops" and end the game.
+
+Kissu no Yuurei (Keith's Ghost)        1.000   1.006   J1.052  1.024   2.011
+                                                         X       X       X
+- While along the very bottom of the screen, Sonny can clip through Keith after
+  opening the door to the motel room.
+
+Moonwalking                            1.000   1.006   J1.052  1.024   2.011
+                                         X
+- The player can walk into walls.
+
+Motel is Already Falling Apart...      1.000   1.006   J1.052  1.024   2.011
+                                         X       X       X       X       X
+- Once script 225 is the motel script, a number of objects have their vertical
+  alignment shifted by one pixel: The hotel manager, staircase, motel sign, 
+  and Room 206's door.
+- The door to Room 108's is placed in the exact position, but the identifier
+  was shifted down a pixel.
+
+Out of Bounds                          1.000   1.006   J1.052  1.024   2.011
+                                         X       X       X       X       X
+- #1 Using down-left along the edge of the vehicle can get the player caught
+  along the bottom of the vehicle. If the player speed has been set to a high
+  enough value (slowest possible), there should be enough room to keep
+  alternating between Down and PgDown to move right along the vehicle and
+  escape. Otherwise, this may require a system reset.
+- #2 Alternating between Right and PgDown along the bottom corner of the
+  screen, the player can wrap around the map boundary and move around behind
+  the lower half of the screen. It cuts off at 132, meaning the player cannot
+  loop around the entire screen and come back out on other side unless they
+  are willing to move and see the popup text in excess of 21,000+ times.
+- On an amusing note: If the player has moved far enough away from the screen,
+  Keith will start following the player through the clipped wall. If the player
+  manages to return to the vehicle and Keith is stuck and unable to return,
+  this will lock up the game, though the menu will be accessible.
+
+Painfully Slow Cleanup!                1.000   1.006   J1.052  1.024   2.011
+                                         X
+- If Sonny drives away in his personal vehicle to somewhere and comes back,
+  the crime scene is left intact.  This happens because the personal vehicle
+  check for which motel script is run is not updated by the motel or crime
+  scene related stuff.
+- This no longer applies after Sonny learns of Marie's kidnapping, since the
+  motel script is updated to 225 for the personal vehicle 'after' the
+  kidnapping has been determined.
+- As of 1.001.006. The crime scene will be cleaned up after Sonny drives
+  somewhere.
+
+Quick Cleanup!                         1.000   1.006   J1.052  1.024   2.011
+                                         X
+- If Sonny enters the unmarked vehicle any time after Global Variable 100 is
+  set to 12 (After the door to room 108 is blown open by Bains' trap) and
+  exit, the crime scene will be cleaned up and Sonny will be unable to enter
+  the motel room.
+- This does not happen if Sonny is using his personal car for the scenario.
+  If the player returns to the scene before visiting Marie using the personal
+  car, they can still access the motel room.
+- As of 1.001.006. Exiting and re-entering will clear up the tear gas (if it is
+  active) and the crime scene remains intact.
+
+That Door Looks Hurt!                  1.000   1.006   J1.052  1.024   2.011
+                                         X       X       X       X       X
+- The door animation is misaligned when Sonny 'kicks it down' instead of
+  opening it with the motel key (You know, the normal way).
+
+The Gun Frees Me!                      1.000   1.006   J1.052  1.024   2.011
+                                         X
+- Drawing the gun while the warrant officer approaches will allow the player to
+  move around. This is prevented if the officer freezes up (Because Sonny is on
+  his arrival spot).
+
+** ODD CODING:
+I am NOT Bains!                        1.000   1.006   J1.052  1.024   2.011
+                                         X       X       X       X       X
+- The police officer that arrives on scene can be called by any name when using
+  the 'talk' command, except for Keith (He is special, after all).
+
+We Have a Shotgun?!                    1.000   1.006   J1.052  1.024   2.011
+                                         X       X       X       X       X
+- Attempting to get the Browning shotgun out of the trunk before Keith grebs it
+  will tell the player Sonny should not remove it from the trunk, even though
+  it's not there.
+- If Keith has been in the motel and the Field Kit is not in the trunk, the
+  game will tell Sonny the trunk is empty, even though the same dialogue for
+  trying to remove the Browning will appear.
 
 -------------------------------------------------------------------------------
 pic.026 -- Motel, inside
 
+- The control layer has the infamous "THIS IS MICKIE'S ROOM" carved in. In
+  theory, it could 'sort of' be navigated if the player's X and Y values are
+  modified so the player can walk around those letters.
+- The envelope's contents can only be read while in the room.
+
 ** COMMANDS:
-   - get browning (more interesting if Keith is not with you)
-   - get television (top side bed)
-   - lie, nap, sat
-   - turn card (after getting it)
-   - wash hands
-   - flush toilet
-   - acquire crap
+- get browning (more interesting if Keith is not with you)
+- get television (top side bed)
+- lie, nap, sat
+- turn card (after getting it)
+- wash hands
+- flush toilet
+- acquire crap
+
+** BUGS
+Infinite Points                        1.000   1.006   J1.052  1.024   2.011
+                                         X
+- This can only happen under a set of circumstances:
+  - Player must be using the Sonnymobile, not the unmarked car.
+  - Player must not visit Marie's place.
+  The player can enter the room and obtain the envelope and a blood sample (if
+  the player brought a field kit along), go back to the office, both them both
+  as evidence (for points), then drive back to the inn and collect the items
+  again.
+- The Colby business card and lipstick can only be picked up once.
+- By 1.000.006, they fixed the unmarked vs Sonnymobile issues when it came to
+  handling the motel scenario scripts.
+- Reading the contents of the envelope does not affect this bug.
+
+** ODD CODING:
+- The guide creator knows this has to do with local variables, but is amusing
+  that the drawer automatically closes when the player leaves Room 108.
 
 -------------------------------------------------------------------------------
 pic.027 -- Warehouse
 
 - The event is not set until after the player talks to the captain on Day 2. If
   the player drives there immediately after day 2 starts, they will find
-  nothing.
-- Driving here in Sonny's car will result in the game crashing (Since it would
-  normally call for Keith to start walking around the screen, except there is
-  no Keith)
+  nothing (This requires a debug edit immediately after driving to the
+  warehouse, or else the player will have a chat with the captain).
 - You can get the blood and camera shots before moving in for a close-up of the
   trunk.
+- "After carefull consideration" has two l's. This is in all versions of the
+  game.
 
 ** COMMANDS:
-   - drink blood (eww...)
-   - frisk, look in car (lol)
-   - get hair, dirt
-   - make cast
-   - look broad
-   - look car (at woody's car)
-   - look white car
-   - look coroner
-   - n
-   - look hole
-   - read sign
-   - climb
-   - check registration
-   - crawl hole
+- drink blood (eww...)
+- frisk, look in car (lol)
+- get hair, dirt
+- make cast
+- look broad
+- look car (at woody's car)
+- look white car
+- look coroner
+- n
+- look hole
+- read sign
+- climb
+- check registration
+- crawl hole
 
 ** BUGS:
-   - The Moonwalking glitch can be done at the motel. To perform this, the
-     player must press a directional key as the game loads between the in-
-     vehicle screen and the location screen as Sonny gets out of the car. If
-     done right, the player will start to move in a direction, regardless of
-     which way he is facing, which can result in an unusual 'moonwalking'-like
-     appearance. The player can float into the sky and beyond.
-     This was fixed by v1.002.011.
-   - There is a bug where if the timer hits 0 after Dispatch's final message
-     is displayed (this ie just before the screen changes over to the
-     warhouse), the event will not trigger. Instead, Keith simply gets out of
-     the car, walks into the fence and asks (with a textbox that is 1/3 out of
-     the screen) if they are meeting someone. Under regular circumstances,
-     trying to time this would be next to impossible; it would be a lot
-     easier to use debug mode and set 158 to 1 as you get the dispatch
-     message.
-   - Not bringing Keith along causes a crash. Immediately after Sonny gets out
-     of the car, officer Gelepsi begins his recounting of what happened.
-     Partway through the game throws the player an "oops".
-     This occurs in all versions of Police Quest II, however, it cannot be
-     performed under normal circumstances. This requires the player to enter
-     debug mode (after entering the sonnymobile) and reset the driver timer
-     variables before driving off.
+An Early Exit                          1.000   1.006   J1.052  1.024   2.011
+                                         X       X       X       X       X
+- The player can re-enter the vehicle before the exit sequence is completed.
+  Normally, this would not happen because Keith demands the player wait for
+  him.
+- The only exception to this is when they immediately arrive at the scene.
+
+Call it an Extended Break              1.000   1.006   J1.052  1.024   2.011
+                                         X       X
+- The Coroner and vehicle sprites can be permanently left at the scene if the
+  player leaves the area (drives somewhere else) before moving the body from
+  the trunk to the coroner's vehicle.  The crime scene will be cleaned up
+  upon their arrival, but the vehicle and guy remain (even though dialogue
+  does not indicate they are there).
+- If the player enters in 'move body', the script will attempt to perform the
+  animations to move the body, but the game will throw the player an "oops"
+  and abruptly end.
+
+Coroner Coming Through!                1.000   1.006   J1.052  1.024   2.011
+                                         X       X
+- If the player is pinned along the bottom right corner of the vehicle and the
+  game tries to re-direct Sonny across the screen to move out of the way, Sonny
+  will be unble to walk across the screen, which interrupts and locks the game,
+  except for the menu.
+- If the player happens to be around the bottom left corner of the vehicle, it
+  is possible for the script to complete without Sonny blocking the path.
+- As of 1.000.006, a pathblocker is placed along the right side of the screen,
+  preventing the player from getting to the coroner bottom-right corner.
+  However, this clears up once the player gets the out-of-bounds message after
+  trying to wander off the screen.
+- In later versions this was 'fixed' by giving a "you're not close enough"
+  reponse when it was time to move the body.
+
+Keith Said So? WHEN?                   1.000   1.006   J1.052  1.024   2.011
+                                         X       X       X       X       X
+- If the driving timer dips below 90 seconds and the player (eventually)
+  arrives at the Warehouse, the crime scene will be clear and Keith will
+  comment on how they should have gotten there sooner. The driver timer is set
+  to 1 and the player is in trouble as soon as they get in the car. However,
+  another trip back to the Warehouse will show the crime scene is fully intact,
+  again.
+
+I see Green Trunks                     1.000   1.006   J1.052  1.024   2.011
+                                         X       X       X       X       X
+- The player can still attempt to interact with the green car's trunk (open and
+  close it), even if the vehicle is not at the scene.
+
+Moonwalking                            1.000   1.006   J1.052  1.024   2.011
+                                         X       X
+- The player will float around and clip right through all path blockers.
+- The same effect can happen if you try to 'open door' during the cutscene with
+  Mario.
+ 
+My Name On a Death Note? F***!         1.000   1.006   J1.052  1.024   2.011
+                                         X       X
+- The player can read the death threat on this screen, even if Sonny has yet to
+  obtain one.
+
+Out of Bounds                          1.000   1.006   J1.052  1.024   2.011
+                                         X       X       X       X       X
+- This can happen in two places: Along the parked vehicle on the right side of
+  the screen and under the coroner's vehicle while it is present.
+
+They Cleaned Up In Time.               1.000   1.006   J1.052  1.024   2.011
+                                         X       X       X       X       X
+- If the timer hits 1 after Dispatch's final message is displayed (this is just
+  before the screen changes over to the Warehouse), the event will not trigger.
+  Instead, Keith simply gets out of the car, walks into the fence and asks
+  (with a textbox that is 1/3 out of the screen) if they are meeting someone.
+- While this is a normal bug, trying to time this under regular circumstances
+  would be next to impossible. It would be a lot easier to use debug mode and
+  set 158 to 1 as you get the dispatch message confirming your arrival (Too
+  early and you will get the call from Captain Hall).
+
+You're Not Luigi, Keith!               1.000   1.006   J1.052  1.024   2.011
+                                         X       X       X       X       X
+- Rapidly pressing keys while the cutscene plays and having the game speed set
+  to '3' seems to hamper the script that controls Mario to the point he will be
+  in Keith's way as he tries to walk around the vehicle and (instead) walks
+  with Mario to his car.
+
+FOR FUN:
+Who's Keith Is It, Anyway?             1.000   1.006   J1.052  1.024   2.011
+                                         X       X       X       X       X
+- Not bringing Keith along causes a crash. Immediately after Sonny gets out of
+  the car, officer Gelepsi begins his recounting of what happened. Partway
+  through, the game throws the player an "oops" and the game abruptly ends.
+- This cannot be performed under normal circumstances. This requires the player
+  to enter debug mode (after entering the Sonnymobile) and reset the driver
+  timer variables (158 and 159 to 0) before driving to the Warehouse in the
+  Sonnymobile.
+- There is a way to get around the crash. Upon arriving at the scene, type in
+  'open door' as you pull in, wait for Sonny to get out, then keep hitting F3
+  in the hopes that you manage to open the door and escape the sequence that
+  normally kills the game. If this is done right, the player can still carry on
+  with this part of the game. However, after examining the body, the
+  Sonnymobile will be replaced with the unmarked car and Keith will be there
+  (because Global131 is changed from 33 to 13).
 
 -------------------------------------------------------------------------------
 pic.028 -- Warehouse, Trunk
 
 ** COMMANDS:
-  - drink blood
-  - deposit corner
-  - frisk pockets
-  - chat dude
-  - chat coroner (if coroner is there)
-  - chat cop
-  - check breathing
-  - finger
-  - examine trunk
-  - get newspaper (after body is gone)
+- drink blood
+- deposit corner
+- frisk pockets
+- chat dude
+- chat coroner (if coroner is there)
+- chat cop
+- check breathing
+- finger
+- examine trunk
+- get newspaper (after body is gone)
+
+** ODD CODING
+- You can use look twice when examining Woody's face ('look look face').
 
 -------------------------------------------------------------------------------
 pic.029 -- Arnie's, Outside
 
 ** COMMANDS:
-   - look construction
-   - look, read sign
-   - look chamber
+- look construction
+- look, read sign
+- look chamber
+
+** BUGS:
+Out of Bounds                          1.000   1.006   J1.052  1.024   2.011
+                                         X       X               X
+- It is possible to clip through the left-side of the screen by holding down
+  the left button while trying to get through the message prior to turning
+  around. If the player can time it right, Sonny will continue walking left,
+  clipping past the barrier and have the player's X position (eventually) loop
+  around and have Sonny appear on the right side of the screen. At maximum
+  speed, it takes a little over a minute for him to walk around.
+
+Moonwalking                            1.000   1.006   J1.052  1.024   2.011
+                                         X
+- This can only be done with the Sonnymobile and requires mouse support.
+- Instead of pushing a direction, the player needs to click on screen
+  immediately after the parking lot loads. Sonny starts along the top-left
+  corner of the screen (Y-position is 0, meaning you only see his shoe)
+  before exiting the car. If timed right, Sonny will moonwalk to where the
+  mouse was clicked horizontally. Upon reaching that spot, the player's Y-
+  position will change to 0, again.
+
+** ODD CODING:
+SCI, Get Some Glasses!                 1.000   1.006   J1.052  1.024   2.011
+                                         X       X       X       X       X
+- Keith can be sitting inside the unmarked car, yet looking for/talking to him
+  gives the player the canned "Keith is not here" response.
+
+** LEFTOVER BITS:
+Keith in Hungry, Too!                  1.000   1.006   J1.052  1.024   2.011
+                                         X       X       X       X       X
+- If the player brings Keith along to the dinner date with Marie, Keith will
+  prefer to nap in the vehicle rather than go inside to eat (Just don't tell
+  the captain).
+- This can be performed in one of two (known) ways:
+  * Use debug to patch in inventory #3 (unmarked car keys) and take the
+    unmarked car to Arnie's
+  * Use debug to set global variable 131 to 13 while en route to the restaurant
+    via the normal way. When Sonny arrives, it will show the unmarked car,
+    instead.
 
 -------------------------------------------------------------------------------
 pic.030 -- Arnie's Inside
@@ -701,9 +1738,12 @@ pic.030 -- Arnie's Inside
 - You can try to 'fuck patron', but it goes about as well as expected.
 - Kissing patron/customer is not allowed, it seems. Instead, you get a
   generic response.
+- Player can leave a $5 tip (per tip).
 - Do NOT enter the smoking section.
-- 1/2 price menu IF the player shows Sonny's badge to the waiter. This changes
-  three values in memory to reflect the prices.
+- 1/2 price menu is available IF the player shows Sonny's badge to the waiter.
+  This changes three values in memory to reflect the prices. To do this:
+  'ask price', 'show badge'.
+- The game comments on Sonny abandoning Marie at the restaurant, if he does.
 - If you want, you can stand up after taking the orders and leave the
   restaurant.
 - The restaurant has (what appears to be) 2 timers for events. The timer seems
@@ -725,20 +1765,119 @@ pic.030 -- Arnie's Inside
   - Order Taken: 300, Timer 3, 450, Timer 4. Once Timer 3 runs out, Timer 4
     starts.
   - Timers 3 and 4 reach zero: Order is delivered.
+- The waiter is coded to ignore all other objects, path blockers, etc.
+
+- In 1.024 and 1.002.011:
+  - Use phone does not give you the generic 'Crimebusters' response.
+
+- In J1.000.052:
+  - The waiter does not appear when Sonny enters, leaving Sonny to seat
+    himself. Whether this is due to a 'cultural' adjustment, they had trouble
+    including the script or omitted this for some other reason is
+    unknown.
+  - Marie's unique theme does not play when the player approaches her.
+  - The score jingle does not play while the restaurant theme plays (If the
+    2nd music setting is set through install.exe).
+
+** COMMANDS:
+- use phone
+- get money, cash
+- open register
+- beg
+- goodbye (funnier if Sonny tries to walk out on Marie)
+
+** BUGS
+Smoking Section?  Pfft!                1.000   1.006   J1.052  1.024   2.011
+                                         X       X       X       X       X
+- After the waiter gets Sonny's order and stands up, he can walk behind the
+  wall and ignore the smoking section warning (which normally stops the
+  player).
+- In 1.001.000, there is a red smoke effect (upper left corner) that has a
+  tendency to linger around.
+- In 1.002.011, the main smoke effect has an unusual overlap over the wall that
+  makes a small part of the wall blink with a light cyan colour.
+
+Moonwalking                            1.000   1.006   J1.052  1.024   2.011
+                                         X       X               X       X
+- This is mouse-related. By holding down a direction with the mouse button as
+  Sonny stands, he will moonwalk as long as the pathing allows.
+
+Two Sonnys, One Marie                  1.000   1.006   J1.052  1.024   2.011
+                                         X       X       X
+- Right-clicking on the screen while Sonny is sitting down will cause another
+  Sonny to appear on the screen. This one can even leave the restaurant, if
+  the players wants him to.
+- In J1.000.052, it is possible to walk Sonny right into the restaurant using
+  a mix of the mouse and keyboard inputs.
+
+Patron Clipper (1)                     1.000   1.006   J1.052  1.024   2.011
+                                         X
+- The bottom-most patron in the restaurant can be clipped through: It is
+  possible to stand between him and the table.
+
+Patron Clipper (2)                     1.000   1.006   J1.052  1.024   2.011
+                                                 X
+- The bottom-most patron will have his head clip through the table ornament
+  after the game is restored.
+
+Marie Can Pay For It                   1.000   1.006   J1.052  1.024   2.011
+                                         X       X       X       X       X
+- If the player tries to get up and leave after the meals have been delivered,
+  but before they are consumed, the game will comment on the player's turkey
+  habits, then the waiter will hand off the bill. The restaurant ending plays
+  as normal. However, if this is performed 'after' the meal has been eaten, the
+  game will treat this as the player abandoning Marie which allows Sonny to
+  avoid paying for the (free) meal.
+
+Exact Change?  Nuh-uh!                 1.000   1.006   J1.052  1.024   2.011
+                                         X       X       X       X       X
+- The player must have more money than the final bill, or else they will
+  not get the points for finishing the dinner scenario.
+
+** ODD CODING
+Crouching Sonny, Hidden Gun            1.000   1.006   J1.052  1.024   2.011
+                                         X       X       X       X       X
+- The game allows for the gun to be drawn and fired while sitting down in the
+  restaurant. Fortunately, they remembered to include the game over sequence
+  that happens when the player fires the gun in the presence of civilians.
 
 -------------------------------------------------------------------------------
 pic.031 -- Marie's House, Outside
 
 ** COMMANDS:
-   - look house
-   - look tree, bush, lawn, grass, flower
-   - look ave, sidewalk, driveway
-   - look up, down, air, dirt, roof
-   - look bains
-   - look sweet cheeks
-   - climb fence
-   - police (to door)
-   - break window
+- look house
+- look tree, bush, lawn, grass, flower
+- look ave, sidewalk, driveway
+- look up, down, air, dirt, roof
+- look bains
+- look sweet cheeks
+- climb fence
+- police (to door)
+- break window
+
+** BUGS:
+Moonwalking                            1.000   1.006   J1.052  1.024   2.011
+                                         X
+- The player will walk and respond to anything that blocks Sonny's path.
+- This can only be done with the Sonnymobile at the start of the game while it
+  is pulling up in front of the house and will (likely) require a decent amount
+  of advance key pressing for the moonwalk to happen.
+- This (appears to) require a fresh, new game (or Day 2 with some global
+  variable mods) to perform.
+
+Pop, the Magic Trunk                   1.000   1.006   J1.052  1.024   2.011
+                                         X       X       X       X       X
+- Should the player take the unmarked car to Marie's place on day 1, Keith will
+  wait in the car. If the trunk was left open when leaving Marie's place, the
+  trunk will appear closed as Keith yells at Sonny to get a move on, then it
+  pops open for him.
+
+** ODD CODING:
+Double the Pathing For Keith!          1.000   1.006   J1.052  1.024   2.011
+                                         X
+- When getting back in the car, Keith must first head to a specific spot on the
+  map (closer in line to where the car's trunk is), then he walks over to the
+  door to get into the vehicle.
 
 -------------------------------------------------------------------------------
 pic.032 -- Marie's House, Inside
@@ -750,63 +1889,121 @@ pic.032 -- Marie's House, Inside
   without having Keith around (Player can drive their own vehicle to Marie's).
   The game was setup to handle this.
 
-** COMMANDS:
-   - look window
-   - look grass
-   - look clock
-   - call friend (by yourself)
-   - turn on lamp
+** COMMANDS:                    (Different on Day 2?)
+- look sofa                             X
+- look kitchen                          X
+- look window
+- look grass
+- look dirt
+- look clock
+- look table                            X
+- look ashtrey                          X
+- look friend                           X
+- look bedroom                          X
+- look lamp                             X
+- get lamp
+- get plant
+- enter bedroom                         X
+- call friend                           X
+- turn on lamp
+- make call                             X
+- open fridge, cabinet                  X
+- search chair, sofa
+- search chamber                        X
+- sit                                   X
+- frisk cheeks
 
 ** BUGS:
-   - In Marie's house, the ashtray can be dusted and prints collected. These
-     prints use the same inventory item as the prints collected from the
-     jailer's car. On top of it, there is nothing in the game that tracks that
-     these prints have been collected. Since evidence counts for one point each
-     when booked, the player can (without limit) go to Marie's house, pick up
-     the prints and bring them back to the station to earn a point, up to a
-     maximum of 32767 before the value loops back and becomes a negative
-     number.
-     This was fixed by version 1.002.011 (It is no longer possible to get
-     prints at the house).
+Moonwalking                            1.000   1.006   J1.052  1.024   2.011
+                                         X       X       X       X       X
+- If the player tries to exit the house immediately after entering it, a glitch
+  happens where the player's regular movements are disabled due to an issue
+  with Keith not completing his script to walk down the hall and into the
+  bedroom. The player still has acesss to the parser and function keys. To
+  break out of this, Sonny can draw his gun. This creates a moonwalking effect
+  where the player will resume movement but will always be facing upwards.
+- The player can withdraw Sonny's gun and the moonwalking effect will continue.
+- Alternatively, this bug can become active by trying to draw the gun and walk 
+  around as Keith returns to the front door (because the player is trying to 
+  leave the house).
+
+Infinite Points                        1.000   1.006   J1.052  1.024   2.011
+                                         X       X
+- The ashtray can be dusted and prints collected. These prints use the same
+  inventory ID as the prints collected from the jailer's car. There is nothing
+  in the game that tracks which prints have been collected. Since evidence
+  counts for one point each when booked, this becomes a spot for infinite
+  points.
+- This can be collected at any point during regular game play, even on Day 1,
+  before the kidnapping happens.
+
+Picture Shadow Paints 1000 Words       1.000   1.006   J1.052  1.024   2.011
+                                         X       X       X       X       X
+- The priority layer puts the line of shadow under the picture frame above
+  Sonny's position, leaving the tv antenna and shadow to appear in front of the
+  Sonny when positioned around there.
 
 -------------------------------------------------------------------------------
 pic.033 -- Sonny's vehicle.
 
 - Driving anywhere while the timer is counting down will cause the timer to run
-  5 times (approx.) faster than normal.
+  down at a rate of frames, rather than seconds.
 - Do not enter this vehicle while under orders to investgate Cotton Cove and
-  the Warehouse.  Doing these will set the driver timer to 3.  If you are on
-  your first timer, it will also set the second timer to 600.  When that happens,
-  no matter where you go, you will get in trouble back at the station.
-
-** SOFTLOCK:
-  - There is a nasty softlock that can take place IF the player waits around
-    10-11 minutes, THEN drives somewhere (without opening the door to the car
-    at least once).  If the player waits long enough, Sonny will get pulled
-    over, taken back to the station, given the usual lecture, then gets his
-    orders to go to jail. However, during this, the game will not take the
-    keys from the ignotion and the personal car door remains locked.  This will
-    prevent Sonny from entering the office and going back to his car to
-    complete Day 1, resulting in said softlock.
-    This happens in all versions of Police Quest II.
+  the Warehouse (Global 100 = 5 or 10). Doing these will set the driver timer
+  to 3. If you are on your first timer, it will also set the second timer to
+  600. When that happens, no matter where you go, you will get in trouble back
+  at the station.
+- If the player tries to drive anywhere after arriving at the station on day 2
+  (Global 100 = 8), but before getting their orders to go to the warehouse, the
+  timer will be set to 10 seconds and the player will get pulled over, quickly.
+  This happens regardless of what the current timer is at.
+- Driving to Marie's place early in the JP version has Keith commenting on if
+  Sonny would rather be alone, which the usual day 1 response.
 
 ** COMMANDS:
-   - look back bench
-   - adjust
-   - use extender
-   - buckle
-   - turn on heat, air, conditioner, fan
-   - look visor
-   - look ashtray
-   - press horn
-   - turn on/off engine
-   - drive death (works for warehouse)
+- draw gun
+- drive car
+- drive murder
+
+** COMMANDS:
+- look back bench
+- adjust
+- use extender
+- buckle
+- turn on heat, air, conditioner, fan
+- look visor
+- look ashtray
+- press horn
+- turn on/off engine
+- drive death (works for warehouse)
 
 ** BUGS:
-  - Doing the "Don't enter personal vehicle on day 2 while under orders" and
-    trying to drive somewhere with the vehicle will result in unique
-    disciplinary dialogue where the captain will suspend Sonny "again" for
-    disobeying orders...  even though he was not suspended the first time.
+Every Building is an Inn!              1.000   1.006   J1.052  1.024   2.011
+                                         X
+- If the player executes the unusual situation of driving around in the
+  personal car after going to Marie's House and drives from the motel to the
+  motel, they can 'look window' and get a comment about how they are still at
+  the motel.
+
+Stop The Car! You'll Hit Sonny!        1.000   1.006   J1.052  1.024   2.011
+                                         X       X       X       X       X
+- Click the mouse on the screen while Sonny is driving somewhere will have
+  Sonny walk in front of Sonny.
+- This can also work while Sonny's vehicle is stationary, but the detail
+  outside the window is treated as a sort of path blocker, so the player will
+  have to loop Sonny around the detail before he can appear.
+
+** ODD CODING:
+Don't Forget Your Keys!                1.000   1.006   J1.052  1.024   2.011
+                                         X       X       X       X       X
+- There is a nasty softlock that can take place IF the player waits around 10-
+  11 minutes, THEN drives somewhere (without opening the door to the car at
+  least once). If the player waits long enough, Sonny will get pulled over,
+  taken back to the station, given the usual lecture, then gets his orders to
+  go to jail. However, during this, the game will not take the keys from the
+  ignition and the personal car door remains locked. This will prevent Sonny
+  from entering the office, going back to his car, getting his badge, etc., all
+  critical to completing the game.
 
 -------------------------------------------------------------------------------
 pic.040 -- Airplane, cabin
@@ -814,139 +2011,307 @@ pic.040 -- Airplane, cabin
 - If you board with a ticket to Houston, you can go through the usual start,
   then you are escorted off the plane, since there is no need to go there. For
   lulz, you can also say 'no' when asked if you are Detective Bonds during the
-  process.
+  process or wait it out while the stewardess endlessly asks you the same
+  question (She secretly thinks you are).
 - This is one of the locations where Sonny can behave like a playboy.
+- The player is given:
+  - 140 seconds to disarm the bomb in 1.001.000.
+  - 120 seconds to disarm the bomb in all other versions.
+- The game over used when you shoot the hijacker in 1.001.000 is a poorly
+  worded run-on sentence. It was fixed by 1.001.006.
+- "You down the alchohol quickly, and it seems to make you feel better..."
 
 ** COMMANDS:
-   - open compartment
-   - look window
-   - pinch attendant
-   - kiss, fuck -- naked, boob, sex
+- open compartment
+- look window
+- pinch attendant
+- kiss, fuck -- naked, boob, sex
 
 ** BUGS:
-   - There is a small window during the hijacking after the stewardess falls on
-     the floor where if Sonny draws his gun and fires right before the hijacker
-     attacks Sonny, the bullet hit will register too late and the hijacker's
-     kill animation begins, killing the player, instead. Given there is no
-     unique circumstance for this, the player is told they missed because the
-     gun was not sighted, even if it is.
-     This was fixed by version 1.002.011 (Sonny's bullet registers a kill much
-     faster and the game prevents the player from firing once the hijacker
-     performs his kill animation).
-   - You can talk to the hijackers after Sonny guns them down. They have
-     generic passenger responses (By this point, all the pasengers are scared
-     since there is a bomb set to blow them up any second).
-   - In JP1.000.052, Keith disappears while the hijackers make their
-     appearance. After they have been taken out and the stewardess returns to
-     the cabin, Keith appears once again.
+
+1-Second Invincibility                 1.000   1.006   J1.052  1.024   2.011
+                                         X
+- There is a small window during the hijacking after the stewardess falls on
+  the floor where if Sonny draws his gun and fires right before the hijacker
+  attacks Sonny, the bullet hit will register too late and the hijacker's kill
+  animation begins, killing the player, instead. Given there is no unique
+  circumstance for this, the player is told they missed because the gun was not
+  sighted, even if it is.
+- By version 1.001.006, Sonny's bullet registers a kill much faster and the
+  game prevents the player from firing once the hijacker performs his kill
+  animation.
+
+I Talk to Dead People                  1.000   1.006   J1.052  1.024   2.011
+                                         X       X       X       X       X
+- Sonny can talk to the hijackers after he guns them down. They have generic
+  passenger responses (By this point, all the pasengers are scared since there
+  is a bomb set to blow them up any second).
+
+You Can Come Out Now, Keith!           1.000   1.006   J1.052  1.024   2.011
+                                                         X
+- Keith disappears while the hijackers make their appearance. After they have
+  been taken out and the stewardess returns to the cabin, Keith appears once
+  again.
 
 -------------------------------------------------------------------------------
 pic.050 -- Airport, stolen vehicle (script.104)
 
-- "Read (VIN, Badge)" will give the player 1 point if they do/did not look at
-  the license plate.
+- "Read (VIN, Badge)" will give the player 1 point if they did not look at the
+  license plate.
 
 ** COMMANDS:
-   - look airplane
+- look airplane
 
 -------------------------------------------------------------------------------
-pic.060 -- Cotton cove (middle)
+pic.060 -- Cotton Cove (Middle)
 
-- There is a small window after the shootout where the player can enter 'halt'
-  for Sonny to order Bains to stop. This starts once Bains starts shooting and
-  ends when the vehicle arrives.
 - Sonny appears a few more pixels to the right when entering from the right
-  in v1.002.011.
+  in 1.002.011.
+- There are lesser-known dialogues on this screen:
+  - If Sonny fires before Bains appears on the screen, the game will say Sonny
+    ID'ed and pre-emptively fired at him, causing him to flee. This is easier
+    to execute if the player sets their speed to a higher value (slow) and
+    listens very carefully for when the music starts.
+  - If the player heads for the crime scene first (instead of pursuing/radioing
+    in after the ambush), and does one of 4 actions at the spot with blood so
+    Keith shows up and leaves to radio in a diver, Sonny can follow Keith and a
+    unique "Boy, Keith moves FAST" dialogue will appear.  Even if this is done
+    first, the player can still return to the unmarked car and radio in the
+    situation for points. This also means the player can start the scene with
+    the field kit and make a single trip over to the crime scene to collect
+    evidence.
+  - After Bains flees the scene, player can enter in 'halt' for Sonny to order
+    Bains to stop. This ends once the sedan arrives.
+- "You have an unneasy feeling, as though"...
 
 ** COMMANDS:
-   - look behind tree
-   - look lake
-   - look under bush
-   - look clue, evidence, blood, mark, footprint, feet print
-   - look heart
-   - halt, freeze, police (bains)
-   - look bains (after shooting)
-   - apprehend, pursue, chase bains
-   - look plate (getaway vehicle)
-   - change clothes
-   - find certificate
+- look behind tree
+- look lake
+- look under bush
+- look clue, evidence, blood, mark, footprint, feet print
+- look heart
+- halt, freeze, police (bains)
+- look bains (after shooting)
+- apprehend, pursue, chase bains
+- look plate (getaway vehicle)
+- change clothes
+- find certificate
 
 ** BUGS:
-   - Getting hit by the Bainsmobile without Keith around locks the game.
-     This appears in 1.001.000 and 1.002.011. This cannot happen in the JP
-     version since the car scene is unused on this screen.
-     This cannot be performed under normal circumstances, given that entering
-     the sonnymobile while under orders to investigate short changes the
-     driver timer so you end up with almost nothing left. To fix this, enter
-     debug mode and set the driver timers AFTER you climb in the sonnymobile
-     so you can travel to Cotton Cove without any problems.
-   - During the shootout, if Sonny's fires during Bains' final shot, he will
-     manage to escape, but Sonny will 'start' to fall to ground from a fatal
-     wound, but stays in mid-air right up to the 'game over' screen.
-     This occurs in all versions of Police Quest II, though in versions past
-     1.001.000, the death animation will complete, not leave the player hanging
-     in the air.
-   - If the player is hit at the very edge of the screen by the Bainsmobile,
-     the vehicle will drive off, back up into the middle of the screen, then
-     drive off again. Keith will get off his comment about who is driving the
-     vehicle, then the game freezes.
-     This is partially fixed by version 1.002.011. The glitch can still happen,
-     though it is unlikely the player will see the vehicle backing up. This
-     cannot happen in the JP version since and the car scene is unused on this
-     screen.
-   - If the player is firing the gun while the van with Officer Moore inside
-     arrives, different events can happen:
-     - In version 1.001.000, Sonny will put away his gun as the van arrives and
-       the game freezes with no way to access the menu, exit the game, etc.
-     - In version 1.002.011 and JP1.000.052, Sonny will have an unusual pose
-       while facing the approaching van and the game will lock up. The rest of
-       the scene with Moore exiting the vehicle will play out, but the only
-       thing the player can do is access the menu.
+
+Don't Shoot Moore!                     1.000   1.006   J1.052  1.024   2.011
+                                         X       X       X       X       X
+- If the player is firing the gun while the van with Officer Moore inside
+  arrives, different events can happen:
+  - In version 1.001.000, Sonny will put away his gun as the van arrives and
+    the game freezes with no way to access the menu, exit the game, etc.
+  - In version 1.000.006, Sonny will briefly put away his gun while Moore
+    arrives, but the gun will be back out again once he comes out of the van.
+  - In version 1.024, 1.002.011 and J1.000.052, Sonny will have an unusual pose
+    while facing the approaching van and the game will lock up. The rest of the
+    scene with Moore exiting the vehicle will play out, but the only thing the
+    player can do is access the menu.
+
+Keith Cocklocks You                    1.000   1.006   J1.052  1.024   2.011
+                                         X       X       X       X       X
+- After the ambush, Keith will follow the player fairly close and stay along
+  the same y-axis. Enter the screen from the right as low as possible and use
+  diagonal keys to get in front of Keith when the player is turned around.
+  This should lock the game and (possibly) prevent menu access.
+
+Music? How Ominous!                    1.000   1.006   J1.052  1.024   2.011
+                                         X
+- Prior to the Bains ambush, the 'ominous' music will play on this screen.
+  This can be observed before Bains' escape, the Jail scenario and the Mall
+  scenario.
+
+One Hit Was Not Enough                 1.000   1.006   J1.052  1.024   2.011
+                                         X       X               X       X
+- If the player is hit at the left edge of the screen by the Bainsmobile, the
+  vehicle will drive off, back up into the middle(ish) of the screen, then
+  drive off again. Keith will get off his comment about who is driving the
+  vehicle, then the game freezes.
+- This is partially fixed by version 1.002.011 / 1.024. The glitch can still
+  happen, though it is unlikely the player will see the vehicle backing up.
+- This cannot happen in the JP version since and the car scene is unused on
+  this screen.
+
+Shoot Back, Will You?!                 1.000   1.006   J1.052  1.024   2.011
+                                         X
+- During the shootout, if Sonny escapes Bains' ambush, rather than engaging and
+  happens to walk off the screen right as Bains fires his third shot, the next
+  screen over glitches Sonny's movement animation by replacing it with a dying
+  cycle that loops over. This animation prevents the player from moving up and
+  down, but it can be cancelled by performing some other action, like drawing
+  Sonny's gun.
+
+Sonny Has a Fancy Walk                 1.000   1.006   J1.052  1.024   2.011
+                                         X       X       X       X       X
+- During the shootout, if Sonny escapes Bains' ambush, his walking animation
+  frame rate slows to half speed. This does affect his movement speed, but
+  rather how slow he 'appears' to move.
+
+Three Shots, You're Out!               1.000   1.006   J1.052  1.024   2.011
+                                         X       X       X       X       X
+- During the shootout, if Sonny's fires during Bains' final shot, Bains will
+  manage to escape, but Sonny will 'start' to fall to the ground from a fatal
+  wound and will stay in mid-air right up to the 'game over' screen.
+- In versions 1.001.000, the death animation will be interrupted and will leave
+   the player hanging in the air, but still alive.
+
+Where is Keith?!                       1.000   1.006   J1.052  1.024   2.011
+                                         X       X               X       X
+- Following the shootout and prior to finding the crime scene, Keith will walk
+  behind Sonny. Typing in "look Keith" while on the far left side of the screen
+  will result in the game saying "Keith is not here." while he 'is' there.
+- 1.002.011 ends up going the other way around, inserting a random comment
+  about Keith even though he is not on screen.
+
+(The 'Follow Moore' bugs requires the player to let Moore walk to the middle of
+the screen after getting out of the van and ask why he is there. From there,
+Sonny can ask Moore to go diving while he is much closer to the van, so long
+as he remains close enough to Moore. For J1.052, 1.024 and 2.011, the game
+prevents Sonny from moving while Moore is on the move.)
+
+Getting Stuck on Moore                 1.000   1.006   J1.052  1.024   2.011
+                                         X       X
+- If Sonny manages to place himself on the position Moore is scripted to go to
+  after getting changed, Moore will be unable to complete his action, which
+  results in the game locking up, except for access to menu.
+- This is similar to the warrant officer bug in pic.025 (Motel Parking Lot).
+
+Moore's silly walk                     1.000   1.006   J1.052  1.024   2.011
+                                         X
+- If Sonny is stuck along the path Moore takes to walk to his position on the
+  map after getting changed, Moore may follow an erratic and random pattern
+  around the screen until he is teleported to where he is supposed to go.
+- In all versions after that, he simply walks around Sonny.
+- This is similar to the warrant officer bug in pic.025 (Motel Parking Lot).
+
+The Original Bond                      1.000   1.006   J1.052  1.024   2.011
+                                         X       X
+- If Sonny stands in front of the door after asking Moore to go diving, Moore
+  will clip through Sonny, open the door, Moore disappears, then the door opens
+  again and Sonny is taken into the van.
+- The player can complete the diving sequence without finding the certificate
+  by using this exploit.
+
+FOR FUN:
+One-Man Car Attack!                    1.000   1.006   J1.052  1.024   2.011
+                                         X       X               X       X
+- Getting hit by the Bainsmobile without Keith locks the game.
+- This cannot happen in the J1.000.052 version since the car scene is unused on
+  this screen.
+- This cannot be performed under normal circumstances, given that entering the
+  Sonnymobile while under orders to investigate the cove changes the driver
+  timer so you end up with 3 seconds left. To fix this, enter debug mode and
+  set the driver timers to 0 AFTER you climb in the Sonnymobile so you can
+  travel to Cotton Cove without any problems.
 
 -------------------------------------------------------------------------------
-pic.061 -- Cotton cove (right)
+pic.061 -- Cotton Cove (Right)
 
 - This is one of the locations where Sonny can behave like a playboy.
 - The driving timer is set to 0 as soon as you pull in (current objective).
 - While the dialogue for it has always been in the game since 1.001.000, the
-  scripting in script.061 was edited in 1.002.011 to include the option to ask
+  scripting in script.061 was edited in 1.001.006 to include the option to ask
   officer Gelepsi to call a Coroner on your behalf. While it sets the same flag
   as radioing the call, yourself, it awards the player the wrong amount of
-  points and can lead to a score that exceeds the game's normal 300 limit. This
-  glitch does not appear 1.001.000, but was introduced in 1.002.011 and is
-  carried into JP1.000.052.
+  points and can lead to a score that exceeds the game's normal 300 limit.
+  This 'issue' does not appear 1.001.000, but was introduced in 1.001.006 and is
+  carried into 1.002.011 and J1.000.052.
 - After the shootout, you can enter the car and either radio in the incident
   or you can pursue/chase bains. Both award the same points. If you ignore
   the captain's calls to return to Cotton Cove to investigate, you will be
-  taken to the Airport (where there is no black car, yet).
+  taken to the Airport (where there is no black car, yet). Keep in mind, a
+  timer will still be counting down that will compel the player to return to
+  the cove before doing anything else.
+- If you try to exit the screen to the right and have spoken to the jogger,
+  the game will tell you 'upriver, not downriver', meaning you are still
+  going the wrong way.
+- Officer Gelepsi has unique dialogue should Sonny arrive at Cotton Cove in
+  his personal vehicle. Under normal circumstances, this is not possible due
+  to how the driving timers are handled while the game scenario is set to 5.
 
 ** COMMANDS:
-   - affirmative, yes, y
-   - negative, no, n
-   - look initials
-   - close door
-   - use phone
-   - smell garbage
-   - enter
-   - look plank (good luck finding it)
-   - show, display (to blonde)
-   - show, display  --  clue, evidence, blood, footprint, feet print, i
-   - ask name
-   - ask address, license, badge (especially more than once)
-   - ask date, number
-   - interrogate, ask
-   - calm girl
-   - look blood, mark, clue, evidence
-   - fuck, feel, eat, kiss girl
+- affirmative, yes, y
+- negative, no, n
+- look initials
+- close door
+- use phone
+- smell garbage
+- enter
+- look plank (good luck finding it)
+- show, display (to blonde)
+- show, display  --  clue, evidence, blood, footprint, feet print, i
+- ask name
+- ask address, license, badge (especially more than once)
+- ask date, number
+- interrogate, ask
+- calm girl
+- look blood, mark, clue, evidence
+- fuck, feel, eat, kiss girl
 
 ** BUGS:
-   - If the player is run over by the Bainsmobile on the far screen, the player
-     will get the caption for when they win the game, then the game over
-     screen, allowing the player to restart/restore/quit.
-     This occurs in all versions of Police Quest II.
+
+Keith Teleports                        1.000   1.006   J1.052  1.024   2.011
+                                         X       X
+- Prior to finding the crime scene, if the player walks from the middle screen
+  to the right screen as close to the bottom as possible, Keith will instantly
+  move from behind Sonny to a much higher position on the screen, enough so the
+  player can see his feet.
+
+Keith Cocklocks You                    1.000   1.006   J1.052  1.024   2.011
+                                                         X
+- Since Keith follows the player (before finding the crime scene) and is the
+  same vertical placement, if Sonny enter the screen as close to the bottom as
+  possible, Keith will also be along the same height. If Sonny moves down along
+  the bottom of the screen, the game will try to automove Sonny back to Cotton
+  Cove. Using diagonal movement around Keith will cause the player to end up in
+  front and lock up the game.
+
+Moonwalking                            1.000   1.006   J1.052  1.024   2.011
+                                         X
+- The player only briefly moonwalks away from the car. Once the driving
+  sequence is complete, Sonny is placed back in his starting position just
+  above the car.
+- For some reason, the developers decided to move Sonny away from the vehicle
+  prior to the player gaining control over him.
+- This can only happen at the very beginning of Day 1 due to how the game
+  treats Sonny's initial position on the map.
+
+Infinite Points                        1.000   1.006   J1.052  1.024   2.011
+                                         X       X       X       X       X
+- The player can walk over to the left screen (060), retreat before Bains
+  arrives, walk back to the jogger and 'ask blood' to score additional points.
+
+What Diver?                            1.000   1.006   J1.052  1.024   2.011
+                                         X       X       X       X       X
+- If Keith radios in a diving team and the player gets in the vehicle to
+  drive somewhere before they show, then drive back to the cove (immediately),
+  they will find the crime scene has been cleaned up but there is still time
+  left for the diver to show up.  When that timer hits zero, the vehicle shows
+  up on screen. However, after leaving the screen, they will find no vehicle
+  has arrived, even after they return to the first screen.
+
+ODD CODING:
+Missing Points                         1.000   1.006   J1.052  1.024   2.011
+                                         X       X       X       X       X
+- If the player enters in 'show blood' instead of anything else related to the
+  incident, the jogger will point Sonny in the right direction (but refuses to
+  go along). The game treats this the game as asking about the blood, and will
+  not reward the player any points afterwards, no matter how many times the
+  player enters in 'ask blood'.
+
+Where is the Blood?                    1.000   1.006   J1.052  1.024   2.011
+                                         X       X       X       X       X
+- There is a different set of rules and conditions when asking about blood
+  compared to showing the blood. The 'too far' comments are quite different and
+  the distance required for 'show blood' is a fair bit smaller than simply
+  asking about it.
 
 -------------------------------------------------------------------------------
-pic.062 - Cotton cove (left)
+pic.062 -- Cotton Cove (Left)
 
 - You can follow Bains as he flees from Sonny.
 - This is one of two screens where Sonny can get run over by the Bainsmobile.
@@ -956,98 +2321,176 @@ pic.062 - Cotton cove (left)
   report how he herocially 'watched your back'." . The obvious change is the
   inclusion of 'though'.
 - There is a unique game over on this screen if the player is hit by the
-  Bainsmobile and Keith is not present.
+  Bainsmobile and Keith is not present. This cannot happen under normal
+  circumstances due to driving timers preventing the player from seeing it.
+- The camera can used at any point/direction on the screen and does not
+  contribute to Keith entering the scene and calling in a diving team.
 
 ** COMMANDS:
-   - look behind tree
-   - look under bush
-   - look clock
-   - smell
-   - get clue
-   - dust can
-   - frisk panties
-   - look plate (bains)
-   - call coroner (to Moore)
-   - throw body back (body there)
-   - check breathing
-   - check air (scuba gear)
-   - dive (scuba gear)
-   - yes, no (after surfacing
-
--------------------------------------------------------------------------------
-pic.063 - Cotton Cove, Underwater middle
-
-- If you get the first warning you are running out of air, you do have enough
-  time to surface before you get a game over, though you must react fast.
-
-** COMMANDS:
-   - remove belt, bcv, tank, fin, mask, suit, equipment
-   - up, surface, rise, lid
-   - look school, fish, carp
-   - look crawfish
-   - look cave
-   - look car
-   - look license
-   - search car
-   - talk moore
-   - open kit
-   - get goggles
-   - get wallet
-   - get can
-   - get paper
-   - get metal
-   - get, tow, recover car
-   - get drum
-   - get fish
-   - take leak
-   - take crap
-
--------------------------------------------------------------------------------
-pic.064 - Cotton Cove, Underwater left
-
-** COMMANDS:
-   - remove belt, bcv, tank, fin, mask, suit, equipment
-   - up, surface, rise, lid
-   - look school, fish, carp
-   - look cave
-   - open kit
-   - get can
-   - get paper
-   - get metal
-   - get fish
-   - get bottle
-   - take leak
-   - take crap
+- look behind tree
+- look under bush
+- look clock
+- smell
+- get clue
+- dust can
+- frisk panties
+- look plate (bains)
+- call coroner (to Moore)
+- throw body back (requires body)
+- check breathing
+- check air (scuba gear)
+- dive (scuba gear)
+- yes, no (after surfacing
 
 ** BUGS:
-   - There is a priority vs control misalignment where Sonny can clip through
-     between the two rocks on the mid-right side of the screen.
-   - The rock along the upper right corner can be clipped through to reach the
-     mid-right side of the screen after the player gets the warning about the
-     rocks being a tight fit.
+Keith Blocked By Sonny Days            1.000   1.006   J1.052  1.024   2.011
+                                         X
+- The player must stand as far away from the crime scene as possible and
+  perform:
+  - look blood
+  - get blood
+  - make cast
+
+  After this, Keith will show up. Is Sonny is far away, Keith with be
+  unable to reach the spot he is supposed to walk to, which locks the game,
+  except for menu access.
+- By 1.001.006, Keith stops a few pixels further away, preventing the path
+  blocking from happening.
+
+The Phantom Corpse                     1.000   1.006   J1.052  1.024   2.011
+                                         X       X       X       X       X
+- For this to work, the player must abort the diving sequence (surface, rise,
+  lid), head to the middle screen to change, then exit the screen as Moore
+  enters (before he can speak). Re-enter the screen and head to the far left.
+  Moore will escort Sonny to the 'body'.
+- The player is unable to interact with a body, since there is none there.
+- So long as global variable 100 is set to 6, this scene can be re-enacted as
+  many times as the player wants.
+
+Shrugging Off a Car Wallop             1.000   1.006   J1.052  1.024   2.011
+                                         X       X
+ - Sonny must be at the very edge of the screen and time moving right right
+   as Bains hits him with his (stolen) vehicle. If done right, the first
+   animation of being hit by the vehicle will play, but the screen will
+   transition to the center on with Sonny carrying on as though nothing
+   happened.
 
 -------------------------------------------------------------------------------
-pic.065 - Cotton Cove, Underwater right
+pic.063 -- Cotton Cove, Underwater middle
+
+- If you get the first warning you are running out of air, you can still make
+  it to the surface before you get a game over, though you must react fast.
+- The air's rate of depletion is 2 units every frame. Sonny needs 45 frames to
+  complete the dive (+1 to allow the parser to do stuff), leaving 2108 units of
+  air left to explore. At a default speed of 6, that's 20 units per second
+  being consumed, leaving a maximum time of 1 minute, 45.4 seconds, not counting
+  the slower rate on the right screen.
 
 ** COMMANDS:
-   - remove belt, bcv, tank, fin, mask, suit, equipment
-   - up, surface, rise, lid
-   - look school, fish, carp
-   - look cave
-   - open kit
-   - get boat
-   - get can
-   - get paper
-   - get metal
-   - get fish
-   - get bottle
-   - get tire
+- remove belt, bcv, tank, fin, mask, suit, equipment
+- up, surface, rise, lid
+- look school, fish, carp
+- look crawfish
+- look cave
+- look car
+- look license
+- search car
+- talk moore
+- open kit
+- get goggles
+- get wallet
+- get can
+- get paper
+- get metal
+- get, tow, recover car
+- get drum
+- get fish
+- take leak
+- take crap
+
+-------------------------------------------------------------------------------
+pic.064 -- Cotton Cove, Underwater left
+
+- If you get the first warning you are running out of air, you can still make
+  it to the surface before you get a game over, though you must react fast.
+- The air's rate of depletion is 2 units every frame.
+- If the player's x-position matches the large rock on the left screen as they
+  enter the screen, they will be automatically taken back to the middle screen.
+
+** COMMANDS:
+- remove belt, bcv, tank, fin, mask, suit, equipment
+- up, surface, rise, lid
+- look school, fish, carp
+- look cave
+- open kit
+- get can
+- get paper
+- get metal
+- get fish
+- get bottle
+- take leak
+- take crap
+
+** BUGS:
+Rock Clipper (1)                       1.000   1.006   J1.052  1.024   2.011
+                                         X       X       X       X       X
+- There is a priority vs control misalignment where Sonny can clip through
+  between the two rocks on the mid-right side of the screen.
+
+Rock Clipper (2)                       1.000   1.006   J1.052  1.024   2.011
+                                         X       X       X       X       X
+- The rock along the upper right corner can be clipped through to reach the
+  mid-right side of the screen after the player gets the warning about the
+  rocks being a tight fit.
+
+-------------------------------------------------------------------------------
+pic.065 -- Cotton Cove, Underwater right
+
+- If you get the first warning you are running out of air, you can still make
+  it to the surface before you get a game over, though you must react fast.
+- The air's rate of depletion is 4 units ever 6 frames (every 3 frames without
+  a vest).
+
+** COMMANDS:
+- remove belt, bcv, tank, fin, mask, suit, equipment
+- up, surface, rise, lid
+- look school, fish, carp
+- look cave
+- open kit
+- get boat
+- get can
+- get paper
+- get metal
+- get fish
+- get bottle
+- get tire
+
+** BUGS
+Out of Bounds                          1.000   1.006   J1.052  1.024   2.011
+                                         X       X       X       X       X
+- The player can navigate beyond the boundaries of the map by alternating
+  between down and left along the bottom corner of the screen. Given the
+  constant +2 being added to the player's x-value per frame, it is probably
+  the player will be unable to return to the inside of the map.
+
+What Happened To Carrying His Body?    1.000   1.006   J1.052  1.024   2.011
+                                         X       ?       ?       ?       ?
+- After 'get body' is used, the on-screen events will briefly run for a little
+  longer. It is possible to get swept away by the currents or run out of air
+  even after the body has been retrieved.
+
+You Were Supposed To Die, Here!        1.000   1.006   J1.052  1.024   2.011
+                                         X       ?       ?       ?       ?
+- Upon reach the currents where Sonny is supposed to be swept to his death,
+  there is a small window to enter in a command that allows Sonny to escape
+  that fate. 'up, surface, rise, lid' can be used to swim back to the surface.
 
 -------------------------------------------------------------------------------
 pic.067 -- Oak Tree Mall
 
 - You can look up the VIN number on the stolen car, but not on Pate's vehicle...
-- "Look license" and "Read license" gives you different responses.
+- "Look / Read license" will give one of a list of slightly different
+  responses.
 - The driving counter is set to 0 as soon as you pull in (current objective).
 - You can ask the lady a number of different things, such as her name, number,
   address, etc., but all she will tell you about is her car (Sounds like she
@@ -1055,91 +2498,178 @@ pic.067 -- Oak Tree Mall
 - After your business is concluded and you wait long enough in the car, if you
   exit, the cop, lady and 2 vehicles will be gone.
 
--------------------------------------------------------------------------------
-pic.070 -- sewer something?
+** BUGS
+
+Out of Bounds                          1.000   1.006   J1.052  1.024   2.011
+                                         X       X       X       X       X
+- Along the right side of the map the parking lot is setup at an angle that
+  goes toward the lower right side of the screen. Alternating between down and
+  down-right will eventually result in the player getting stuck in the corner.
+  If the game speed is slow enough, it is possible to break out this corner.
+  Otherwise, this will require a lucky CTRL-Q, a lucky ESCAPE to menu or a
+  system reboot to get out.
+
+Extra Padding Required                 1.000   1.006   J1.052  1.024   2.011
+                                         X       X       X       X       X
+- The pathing around the vehicle is the same one for the unmarked car and the
+  Sonnymobile. This leaves a large path block between the player and the car's
+  hatch-back.
+
+Ghost Vehicle Detected                 1.000   1.006   J1.052  1.024   2.011
+                                         X       X       X       X       X
+- Pate's sports car has a full-time path blocker and all the means to interact
+  with it, including opening the door.
 
 -------------------------------------------------------------------------------
-pic.076 -- Sewer Control Room Entrance (script.
+pic.076 -- Sewer Control Room Entrance
 
 ** COMMANDS:
-   - open door
+- open door
 
-   There are plenty of vocab bundles where saying a word is the same as looking
-   around. These include (but are hardly limited to):
-     - leak, pee, urinate, piss, crap, defecate, dump, fart, poop, shit, fuck
-     - barf, vomit
-     - beat, hit, kick, punch, slap, stome, strike
-     - arrest, bust, cuff, handcuff
-     - exit, leave
-     - saw
-     - flip, trigger
-     - bribe
-     - aim
-     - stink
-     - check
-     - kiss
-     - tow
+- There are plenty of vocab bundles where saying a word is the same as looking
+  around. These include (but are hardly limited to):
+- leak, pee, urinate, piss, crap, defecate, dump, fart, poop, shit, fuck
+- barf, vomit
+- beat, hit, kick, punch, slap, stome, strike
+- arrest, bust, cuff, handcuff
+- exit, leave
+- saw
+- flip, trigger
+- bribe
+- aim
+- stink
+- check
+- kiss
+- tow
 
 -------------------------------------------------------------------------------
 pic.077 -- control room (script.133)
 
 ** COMMANDS:
-   - wear mask
-   - remove mask
-   - smell
-   - listen
-   - push button
-   - use control
-   - look gauge
-   - loon control panel
-   - *anything marie, cheeks
-   - up close
+- wear mask
+- remove mask
+- smell
+- listen
+- push button
+- use control
+- look gauge
+- loon control panel
+- *anything marie, cheeks
+- up close
 
 ** BUGS:
-   - Ordering Bains to "HALT" will cause him to stop and shoot wherever he
-     stands, forcing the player to shoot at him immediately to prevent him from
-     killing Sonny. The player can start firing back and kill Bains
-     immediately. The cutscene will start to play, but without Bains in the
-     proper spot for Sonny to walk over to the body, the game locks up.
-     If the player waits until Bains start shooting to tell him to "HALT"
-     (assuming Sonny has taken a proper hiding position), this will not affect
-     the cutscene, at all.
-     Yelling at Bains to stop appears to reset the counter on the number of
-     shots fired at Sonny before he kills him.
-     This can be used to interrupt Bains' easy kill should the player be out of
-     position and not ready to attack. However, this will still lock the game.
-     Bains will not change direction and will continue to fire at the pipe
-     Sonny (normally) hides behind during the shootout. This still counts
-     towards the number of shots needed to kill Sonny, regardless of where in
-     the room he is standing (even behind Bains).
-     Sonny can leave the room, but since the script outside the room is not
-     updated with Bains being inside the room, a second Bains will show up and
-     gun Sonny down.
-     This occurs in all versions of Police Quest II.
+Excuse me! Coming Through!             1.000   1.006   J1.052  1.024   2.011
+                                         X
+  - Bains will clip through the player to enter the room, then fire at Sonny,
+    regardless of which direction he would have to face to shoot him.
+  - Starting with the Amiga version, Bains will fire as soon as the sprite
+    appears on the screen.
+
+HALT!                                  1.000   1.006   J1.052  1.024   2.011
+                                         X       X       X       X       X
+- Ordering Bains to "HALT" will cause him to stop and shoot wherever he stands,
+  forcing the player to shoot at him immediately to prevent him from killing
+  Sonny. The player can start firing back and kill Bains. The cutscene will
+  start to play, but without Bains in the proper spot for Sonny to walk over
+  to the body, the game locks up.
+- If the player waits until Bains start shooting to tell him to "HALT"
+  (assuming Sonny has taken a proper hiding position), this will not affect
+  the cutscene.
+- Yelling at Bains to halt resets the counter on the number of shots fired at
+  Sonny before he kills him. This can be used to interrupt Bains' easy kill
+  should the player be out of position and not ready to attack. However, this
+  will still lock the game if he is too far from where he is supposed to stop.
+  Bains will not change direction and will continue to fire at the pipe Sonny
+  (normally) hides behind during the shootout. This still counts towards the
+  number of shots needed to kill Sonny, regardless of where in the room he is
+  standing (even behind Bains).
+- Sonny can leave the room while using the "HALT" glitch, but since the script
+  outside the room is not updated with Bains being inside the room, a second
+  Bains will show up and gun Sonny down.
+
+Okay, My Left or Your Left?            1.000   1.006   J1.052  1.024   2.011
+                                                 X       X
+  - Placing Sonny in front of Bains will prevent him from entering the room.
+    This remains in place until the player either moves out of the way or
+    fires his gun, which allows Bains to clip through the player and keep
+    walking.
+  - Typing in 'halt' will cause Bains to start firing at the player.
+
+Sonny's Love Goes Right Through Her!   1.000   1.006   J1.052  1.024   2.011
+                                         X
+- After untying Marie, Sonny can clip through her.
+
+The New Pipecleaner!                   1.000   1.006   J1.052  1.024   2.011
+                                         X
+- Sonny can clip through the far-left side of the pipe if the x-position is
+  perfectly aligned to do so. The best way is to watch the 2nd left-most brick
+  along the 2nd layer be 1 light grey pixel away from Sonny's left shoulder.
+  That will allow the player to 'just' clip through the pipe, but go all the
+  way around.
+
+** ODD CODING:
+I Did Not Fire! You Cannot Prove It!   1.000   1.006   J1.052  1.024   2.011
+                                         X       X       X       X       X
+  - So long as the gun is drawn, Jim Walls will lecture you about firing
+    while standing out in the open, even if you did not fire.
+
+Yes I Can See Him! He's Right There!   1.000   1.006   J1.052  1.024   2.011
+                                         X       X       X       X       X
+  - If the player types in 'look bains', the player will be told he is not
+    there (especially when he IS there).
 
 -------------------------------------------------------------------------------
-pic.078 -- Burt Park, entrance
+pic.078 -- Burt Park, Entrance
+
+- This is one of the very few screens in the game where absolutely nothing the
+  player can go will cause a game over, nor will any special events trigger
+  that can cause it.
+- If the player manages to escape the mugger and retreat to this screen, they
+  will get a message telling them the mugger has given up the chase. The
+  easiest eay to accomplish this is to walk around the lower right corner of
+  the park screen above. When the player gets the message about an approaching
+  person, try to get as close to the bottom of the screen as possible. After
+  showing the badge, the mugger will flee, but the player should be able to
+  exit the screen faster.  Should the player exit the screen before the
+  scene is complete, they can face the mugger again.
 
 ** COMMANDS:
-   - look up
-   - look cloud
-   - look down
-   - look chamber
-   - look wish well
-   - look flower
-   - look marigold
-   - look friend
-   - look sign
-   - look sidewalk
-   - close booth door
-   - pick flower
-   - dig hole
-   - lay down dirt, grass, lawn
-   - get grass, lawn
-   - dust
-   - drink water
-   - make wish
-   - open field kit
+- look up
+- look cloud
+- look down
+- look chamber
+- look wish well
+- look flower
+- look marigold
+- look friend
+- look sign
+- look sidewalk
+- close booth door
+- pick flower
+- dig hole
+- lay down dirt, grass, lawn
+- get grass, lawn
+- dust
+- drink water
+- make wish
+- open field kit
+
+** BUGS:
+
+Pitman Ignors Physics                  1.000   1.006   J1.052  1.024   2.011
+                                         X       X       X       X       X
+  - Pitman will float toward the bottom of the screen, instead of walk.
+
+** ODD CODING:
+  - Normally, along the bottom of the map, when the player goes down too far,
+    they get a message and are redirected back onto the screen. However,
+    along the far left and mid-right are bush edges. If the player hugs them,
+    they can skip past the redirect and go a fair ways below the screen (The
+    player's Y-value caps at 237, which puts the entire sprite of Sonny just
+    under the screen).
+    This is updated in 1.001.006, 1.002.011 and J1.000.052 by adding something
+    that 'bounces' the player in the other direction when they get too close to
+    the bushes.
 
 -------------------------------------------------------------------------------
 pic.079 -- Burt Park, pond, west side
@@ -1147,40 +2677,60 @@ pic.079 -- Burt Park, pond, west side
 - While the range is tiny, it is possible for the player to encounter the punk
   on this map. He approaches / retreats from the south, making use of some
   sprites originally found to be unused.
+- Due to the positioning of where the mugger and player are when the encounter
+  begins, it's not impossible for the player to retreat to either the screen to
+  the left (the mugger pursues) or down (the mugger refuses to follow).
+- Shooting your gun with the punk on the scene is an immediate game over.
+- The dog appears once the player has dealt with the mugger.
 
 ** COMMANDS:
-   - *anything dog
-   - look up
-   - look chamber
-   - look flower
-   - look jonguil
-   - look lamp (there isn't one)
-   - look rock
-   - look cloud
-   - look pond
-   - look sidewalk
-   - look mugger
-   - look egg
-   - look sand
-   - make wish
-   - get grass, lawn
-   - dig grass, hole, dirt, lawn
-   - pick flower
-   - show badge
-   - drink water
-   - talk mugger / read rights
-   - get, kill, fire, eat -- duck, egg
-   - feed duck
-   - talk duck, egg
-   - climb tree
-   - move rock
-   - swim
-   - open field kit
+- *anything dog
+- look up
+- look chamber
+- look flower
+- look jonguil
+- look lamp (there isn't one)
+- look rock
+- look cloud
+- look pond
+- look sidewalk
+- look mugger
+- look egg
+- look sand
+- make wish
+- get grass, lawn
+- dig grass, hole, dirt, lawn
+- pick flower
+- show badge
+- drink water
+- talk mugger / read rights
+- get, kill, fire, eat -- duck, egg
+- feed duck
+- talk duck, egg
+- climb tree
+- move rock
+- swim
+- open field kit
 
 ** BUGS:
-   - There is an control / priority alignment problem where sonny can walk
-     behind the flowers in front of the pond, but it looks as though Sonny is
-     stepping on them.
+No Stepping on the Flowers!            1.000   1.006   J1.052  1.024   2.011
+                                         X       X       X       X       X
+- There is a control / priority alignment problem where sonny can walk behind
+  the flowers in front of the pond, but it looks as though Sonny is stepping on
+  them.
+
+Infinite Points                       1.000   1.006   J1.052  1.024   2.011
+                                         X       X       X       X       X
+- If the player is close enough to the left or right edges of the screen, the
+  player can 'use radio' to chase the punk away, exit the screen before Keith
+  arrives, and be intercepted by the mugger again in the next screen (The
+  sequence is incomplete until Keith takes him away when the radio is used).
+- The player can slow the game down if it helps to deal with the small amount
+  of time available to quickly rack up some extra points.
+
+Who's a Good Keith?!                   1.000   1.006   J1.052  1.024   2.011
+                                         X       X       X       X       X
+- Keith is identified as being on screen when the mugger shows up.
 
 -------------------------------------------------------------------------------
 pic.080 -- Burt Park, west field
@@ -1189,24 +2739,38 @@ pic.080 -- Burt Park, west field
 - The dog appears once the player has dealt with the mugger.
 
 ** COMMANDS:
-   - *anything dog
-   - look up
-   - look chamber
-   - look sand
-   - look tree
-   - look flower
-   - look fence
-   - look pansy
-   - look cloud
-   - look pond (what pond?)
-   - pick flower
-   - get grass, lawn
-   - dig grass, hole, dirt, lawn
-   - lay down
-   - climb tree
-   - jump fence
-   - move rock
-   - open field kit
+  - *anything dog
+- look up
+- look chamber
+- look sand
+- look tree
+- look flower
+- look fence
+- look pansy
+- look cloud
+- look pond (what pond?)
+- pick flower
+- get grass, lawn
+- dig grass, hole, dirt, lawn
+- lay down
+- climb tree
+- jump fence
+- move rock
+- open field kit
+
+** BUGS:
+Infinite Points                        1.000   1.006   J1.052  1.024   2.011
+                                         X       X       X       X       X
+- If the player is close enough to the right edge of the screen, the player can
+  'use radio' to chase the punk away, exit the screen before Keith arrives, and
+  be intercepted by the mugger again in the next screen (The sequence is
+  incomplete until Keith takes him away when the radio is used).
+- The player can slow the game down if it helps to deal with the small amount
+  of time available to quickly rack up some extra points.
+
+Who's a Good Keith?!                   1.000   1.006   J1.052  1.024   2.011
+                                         X       X       X       X       X
+- Keith is identified as being on screen when the mugger shows up.
 
 -------------------------------------------------------------------------------
 pic.081 -- Burt Park, sewer entrance
@@ -1214,206 +2778,371 @@ pic.081 -- Burt Park, sewer entrance
 - The player may encounter the punk if Sonny is far enough from the manhole
   cover.
 - The player must not be standing on top the manhole cover to open it.
+- Shooting your gun with the punk on the scene is an immediate game over.
+- The dog appears once the player has dealt with the mugger.
 
 ** COMMANDS:
-   - *anything dog
-   - look up
-   - look chamber
-   - look sand
-   - look tree
-   - look flower
-   - look chrysanthemum
-   - look clue
-   - look cloud
-   - look pond
-   - look sewer
-   - get grass, lawn
-   - dig hole, dirt, lawn
-   - pick flower
-   - show badge
-   - drink water
-   - lay dirt
-   - jump fence (what fence?)
-   - talk mugger / read rights
-   - get, kill, fire, eat -- duck, egg
-   - feed duck
-   - talk duck, egg
-   - climb tree
-   - move rock
-   - swim
-   - open field kit
+- *anything dog
+- look up
+- look chamber
+- look sand
+- look tree
+- look flower
+- look chrysanthemum
+- look clue
+- look cloud
+- look pond
+- look sewer
+- get grass, lawn
+- dig hole, dirt, lawn
+- pick flower
+- show badge
+- drink water
+- lay dirt
+- jump fence (what fence?)
+- talk mugger / read rights
+- get, kill, fire, eat -- duck, egg
+- feed duck
+- talk duck, egg
+- climb tree
+- move rock
+- swim
+- open field kit
 
 ** BUGS:
-   - The punk can get stuck along the upper part of the screen, running around,
-     unable to escape. Eventually, the punk disappears.
-     This is found in all versions of Police Quest II.
-   - If the player is on one side of the lower bush and the thug is on the
-     other and calls up Keith, Sonny is scripted to move to a position, but is
-     path blocked, which prevents the rest of the script from being executed.
-     This will lock the game, aside from accessing the menu.
-     This is found in all versions of Police Quest II.
+Bushwhacked!                           1.000   1.006   J1.052  1.024   2.011
+                                         X       X        X      X       X
+- If the player is on one side of the lower bush and the thug is on the other
+  and calls up Keith, Sonny is scripted to move to a position after the thug
+  flees, but becomes path blocked, which prevents the rest of the script from
+  being executed. This will lock the game, aside from accessing the menu.
+
+Clippers for My *%$*@                  1.000   1.006   J1.052  1.024   2.011
+                                         X       X       X       X       X
+- The player can enter the sewer from any point on the map, regardless of what
+  they clip through to reach it.
+
+Infinite Points                        1.000   1.006   J1.052  1.024   2.011
+                                         X       X       X       X       X
+- The player needs to move far enough away, then back towards the manhole to
+  trigger the punk, 'use radio', then climb down the manhole. So long as the
+  player does not waste anytime between the radio call and going into the
+  sewer, they can keep repeating this as many times as they like to earn as
+  many extra points as they want to.
+  - Alternatively, the player can also wait for Keith to arrive,
+    'read rights', 'talk mugger', THEN climb down for 9 free points. So long
+    as this has been completed before Keith tries to take the mugger away,
+    this can be repeated without limit.
+- The view IDs for Sonny is incorrect during this sequence and the misc.
+  images for Burt Park are used in his place as he goes into the sewer. This
+  happens because the game is trying to move Sonny to a pre-determined
+  position on map for Keith to bring the punk back over, but the view ID
+  is not updated, so it is using the right directional sprites, but the wrong
+  ID.
+- If the player shows badge, gun or calls out police, the mugger will escape
+  and not return.
+- If the mugger is physically preventing Sonny from climbing down the sewer
+  (because the player did not do something to make the mugger escape), this
+  will lock the game, except for menu access.
+
+Infinite Points, Take 2                1.000   1.006   J1.052  1.024   2.011
+                                         X       X       X       X       X
+- If the player is close enough to the left edge of the screen, the player can
+  'use radio' to chase the punk away, exit the screen before Keith arrives, and
+  be intercepted by the mugger again in the next screen (The sequence is
+  incomplete until Keith takes him away when the radio is used).
+- The player can slow the game down if it helps to deal with the small amount
+  of time available to quickly rack up some extra points.
+
+Punks are Easily Confused              1.000   1.006   J1.052  1.024   2.011
+                                         X       X        X      X       X
+- The punk can get stuck along the upper part of the screen, running around,
+  unable to escape. Eventually, the punk disappears.
+
+We Climb Behind Holes                  1.000   1.006   J1.052  1.024   2.011
+                                                                 X
+- The player will climb down the sewer entrance, but it does not show the
+  player entering the hole, rather behind it.
+
+Who's a Good Keith?!                   1.000   1.006   J1.052  1.024   2.011
+                                         X       X       X       X       X
+- Keith is identified as being on screen when the mugger shows up.
 
 -------------------------------------------------------------------------------
 pic.082 -- Burt Park, picnic area
 
+- Shooting your gun with the punk on the scene is an immediate game over.
+- The dog appears once the player has dealt with the mugger.
+
 ** COMMANDS:
-   - look up
-   - look down
-   - look earthworm
-   - look chamber
-   - look sand
-   - look tree
-   - look bird, friend
-   - look cloud
-   - look flower
-   - look nasturtium
-   - look table
-   - look lamp
-   - look fence
-   - look rock
-   - dig hole
-   - lay on grass
-   - get grass
-   - climb tree
-   - climb lamp
-   - climb fence
-   - sit table
-   - get table
-   - move rock
-   - get rock
-   - open field kit
+- look up
+- look down
+- look earthworm
+- look chamber
+- look sand
+- look tree
+- look bird, friend
+- look cloud
+- look flower
+- look nasturtium
+- look table
+- look lamp
+- look fence
+- look rock
+- dig hole
+- lay on grass
+- get grass
+- climb tree
+- climb lamp
+- climb fence
+- sit table
+- get table
+- move rock
+- get rock
+- open field kit
 
 ** BUGS:
-   - If the player can get behind a picnic table after getting jumped by the
-     thug, this will block the script from executing Keith returning with the
-     thug which will lock the game, aside from accessing the menu.
-     This is found in all versions of Police Quest II.
+Pic-i-nic-whacked!                     1.000   1.006   J1.052  1.024   2.011
+                                         X       X       X        X      X
+- If the player can get behind a picnic table after getting jumped by the thug,
+  this will block the script from executing Keith returning with the thug which
+  will lock the game, aside from accessing the menu.
+
+Who's a Good Keith?!                   1.000   1.006   J1.052  1.024   2.011
+                                         X       X       X       X       X
+- Keith is identified as being on screen when the mugger shows up.
 
 -------------------------------------------------------------------------------
-pic.093
+pic.093 -- Luis Pate's Car
 
-  - If you open the glove box before you secure the fingerprint on the box, you
-  will lose the chance to obtain it.
+- If the player opens the glove box before the fingerprint is taken fron its'
+  surface, they will lose the chance to obtain it.
+
+** BUGS:
+Infinite Points                        1.000   1.006   J1.052  1.024   2.011
+                                         X       X       X        X      X
+- Continually collecting the fingerprints without opening the glove box will
+  allow the player to earn as many extra points as they want to.
+- The path blocker and commands for Luis Pate's vehicle are always on the map,
+  regardless of whether or not the vehicle is there. The player can go along
+  the bottom of the screen (right side, in the parking spot) and type 'open
+  door' to gain access to the vehicle. With a Field Kit on-hand, the player can
+  'dust box' and 'use tape' to get a fingerprint. After that, drive to the
+  station and book the evidence.
+- The game does not track fingerprint evidence nor does it update the map data
+  to remove access to the vehicle (which it is supposed to). This means the
+  player can keep returning to the mall and perform this as many times as they
+  want to (Until Sonny leaves for Steelton).
+- If the glove box is opened, the player loses the ability to obtain the
+  prints.
+
+Wandering Sonny                        1.000   1.006   J1.052  1.024   2.011
+                                         X
+- Using the arrow keys or mouse, sonny can move a unit at a time across the
+  previous screen while looking at the toilet tank. Upon 'exit', the player
+  will appear at a different point on the map based on what they hit/clicked.
+- Because the game automatically re-locates Sonny to the open door of Pate's
+  car, this can only be confimed thgouh:
+  - A memory editor while looking up and x and y values of the player.
+  - 'kiss angel of death' and ALT-E to vieo ego's position.
 
 -------------------------------------------------------------------------------
-pic.101
-  - If you walk back into the room, Lt. Miller will suggest you grab the
-    radios.
+pic.101 -- Steelton Police Dept.
+- If you walk back into the room, Lt. Miller will suggest you grab the radios.
 
 ** COMMANDS:
-   - look pushpin, pin
-   - look map
-   - look ceiling, up
-   - look down, floor, dirt
-   - use phone
-   - yes
-   - no
-   - knock
-   - open door
-   - open cabinet
+- look pushpin, pin
+- look map
+- look ceiling, up
+- look down, floor, dirt
+- use phone
+- yes
+- no
+- knock
+- open door
+- open cabinet
+
+** BUGS:
+  Moonwalking                          1.000   1.006   J1.052  1.024   2.011
+                                         X
+- Nothing is required. This automatically happens until the player walks into
+  the lieutenant's office.
+
+  Phase Master                         1.000   1.006   J1.052  1.024   2.011
+                                         X
+- Sonny can clip through the lieutenant.
 
 -------------------------------------------------------------------------------
 pic.200, 201, 203, 204 -- Sewer
 
 ** COMMANDS:
-   - look water
-   - look slime
-   - look wall
-   - look outlet
-   - look light
-   - shoot light
-   - smell
-   - use radio
+- look water
+- look slime
+- look wall
+- look outlet
+- look light
+- shoot light
+- smell
+- use radio
 
+mask: middle
+- return mask
 
-   mask: middle
-   - return mask
+faucet: bottom-right, middle
+- look faucet
+- use faucet
 
-   faucet: bottom-right, middle
-   - look faucet
-   - use faucet
+rat: most rooms
+- look rat
+- talk rat
+- eat rat
+- get rat
+- kill rat
 
-   rat: most rooms
-   - look rat
-   - talk rat
-   - eat rat
-   - get rat
-   - kill rat
-
-   cockroaches: rooms with methane, mostly
-   - look cockroach
-   - talk cockroach
-   - eat cockroach
+cockroaches: rooms with methane, mostly
+- look cockroach
+- talk cockroach
+- eat cockroach
 
 ** BUGS:
 
-   Where to begin...
+Where to begin...
 
-   - A (partial) out-of-bounds glitch can happen under a set of circumstances:
-     - The player climbs the ladder, attempts to move the cover, then climbs
-       back down.
+A Bridge Too Gone!                     1.000   1.006   J1.052  1.024   2.011
+                                                         X
+- This is found along the lower-left (where the ladder is found) and upper-left
+  tunnels in the sewers. The bridges near the top of the screen were removed.
 
-       AND
+Bains Likes an Easy Target             1.000   1.006   J1.052  1.024   2.011
+                                         X
+- After rattling the manhole cover and climbing back down, should the player
+  climb up the manhole, Bains will still show up, kill the player and leave.
+  Sonny's dead body is left badly positioned and clipping into the wall.
+- By 1.001.006, Bains no longer shows up while Sonny is up the ladder.
 
-       The player draws out the gun and fires it as Bains enters the room. If
-       the player is firing as Bains enters the room to fire at Sonny, the
-       animation set will be stuck at the player drawing their weapon as they
-       move around the room while ignoring pathing walls/blockers. The player
-       can still exit the room, but they will be no longer able to fire their
-       weapon (So whatever you do, do not attempt to finish the game or save
-       your progress after completing this glitch). To fix the glitch, the
-       player must withdraw their gun before leaving the room.
+I Have a Purple Barrier!               1.000   1.006   J1.052  1.024   2.011
+                                         X       X               X       X
+- The transparency color was not properly set for most of the animation frames
+  when Sonny draws his gun while wearing a gas mask.
 
-       OR
+Out of Bounds                          1.000   1.006   J1.052  1.024   2.011
+(And other fun stuff!)                   X
+- A (partial) out-of-bounds glitch can happen under a set of circumstances:
+  - The player climbs the ladder, attempts to move the cover, then climbs back
+    down.
 
-       The player falls into the water. If timed right and Bains approaches and
-       fires before Sonny completely falls in, he will animate and splash
-       around the entire room. However, this prevents all map exits from
-       running properly, leaving the player trapped.
+    -- AND --
 
-     This was fixed by version 1.002.011 (Bains no longer shows up while Sonny
-     fires his gun or falls into the sewer muck).
+    The player draws out the gun and fires it as Bains enters the room. If the
+    player is firing as Bains enters the room to fire at Sonny, the animation
+    set will be stuck at the player drawing their weapon as they move around
+    the room while ignoring pathing walls/blockers. The player can still exit
+    the room, but they will be no longer able to fire their weapon (So whatever
+    you do, do not attempt to finish the game or save your progress after
+    completing this glitch).
+    To fix the glitch, the player must withdraw their gun before leaving the
+    room.
 
-   - After rattling the manhole cover and climbing back down, should the player
-     climb up the manhole, Bains will still show up, kill the player and leave.
-     Sonny's dead body is left badly positioned and clipping into the wall.
-     This was fixed by version 1.002.011 (Bains no longer shows up while Sonny
-     is up the ladder).
-   - Attempting to shoot your gun in a methane pocket while the gas mask is on
-     will softlock the game. Menu options are still accessible.
-     This happens in all versions of the game.
-   - On the left side of the sewer is a methane pocket that spans two screens.
-     Moving from the middle left screen to the upper left screen will cause the
-     mask to disappear if the gun has been drawn. The mask is still
-     'technically' on, but the wrong sprite is being used.
-     On a side note: This glitch will allow a player to shoot a methane gas
-     pocket while wearing a mask.
-     This happens in all versions of the game.
-   - The transparency color was not properly set for most of the animation
-     frames when Sonny draws his gun while wearing a gas mask.
-     This is in versions 1.001.000 and 1.002.011, but was fixed for
-     JP1.000.052.
-   - The sewage floats above the bridge near the top of the screen. This
-     applies to both the upper left and lower left screens in the sewer.
-     This is in versions 1.001.000 and 1.002.011. In version JP1.000.052, they
-     shifted the upper muck down a fair bit, but removed the bridge.
+    -- OR --
+
+    The player is drawing their gun while Bains enters the room. This causes a
+    similar glitch problem like what happens above and Sonny will be unable to
+    raise his weapon and kill Bains, effectively softlocking the the game.
+
+    -- OR --
+
+    The player falls into the water. If timed right and Bains approaches and
+    fires before Sonny completely falls in, he will animate and splash around
+    the entire room. However, this prevents all map exits from running
+    properly, leaving the player trapped.
+
+- By 1.001.006, Bains no longer shows up while Sonny fires his gun or falls
+  into the sewer muck.
+
+Physics-Breaking Guns                  1.000   1.006   J1.052  1.024   2.011
+                                         X       X       X       X       X
+- Attempting to shoot your gun in a methane pocket while the gas mask is on
+  will softlock the game. Menu options are still accessible.
+- If PC Speaker is on, the fire sound may still play (As it does with the Atari
+  version).
+
+Ready For Action!                      1.000   1.006   J1.052  1.024   2.011
+                                         X       X       X       X       X
+- Starting climb out of the sewer, then 'climb' before it is complete and
+  Sonny will hop back down to the ground with gun in-hand.
+- This can be performed even if Sonny does not have his gun.
+
+Sonny "Unggoy" Bonds                   1.000   1.006   J1.052  1.024   2.011
+                                         X       X       X       X       X
+- On the upper-left side of the sewer is a methane pocket that spans two
+  screens. Moving from the middle left screen to the upper left screen will
+  cause the mask to disappear.  If the gun has been drawn, the mask is still
+  'technically' on, but the wrong sprite will be used.
+- 'remove mask' results in the mask being removed, but the gun is out, instead.
+- On a side note: This glitch will allow a player to shoot a methane gas pocket
+  while wearing a mask.
+
+The Sewage! It Defies Gravity!         1.000   1.006   J1.052  1.024   2.011
+                                         X
+- This is found along the lower-left (where the ladder is found) and upper-left
+  tunnels in the sewers. The sewage floats above the bridge near the top of the
+  screen.
 
 -------------------------------------------------------------------------------
 pic.444 -- Using the Phone
 
 - Some extra phone numbers:
-   - 2096836858 - Al Lowe or Sierra On-Line customer support
-   - 2096834463 - Requires a modem to connect to the BBS
-   - unknownnumber - random thug, busy or no answer
+  - 2096836858     > Al Lowe or Sierra On-Line customer support
+  - 2096834463     > Requires a modem to connect to the BBS
+  - unknown number > random thug, busy or no answer
 
 - Saying "(Fuck, crap)" will hang up immediately.
-   - To marie, she will take that as 'yes' for the dinner date.
+  - To marie, she will take that as 'yes' for the dinner date.
 
 ** BUGS:
-  V1.001.000: Even though Marie 'appears' to hang up on Sonny, the phone call
-              carries on, unless Sonny forcibly hangs up the phone, giving him
-              as many chances to say 'no' as he wants to until he ultimately
-              says yes.
+1.001.000: Even though Marie 'appears' to hang up on Sonny, the phone call
+           carries on, unless Sonny forcibly hangs up the phone, giving him
+           as many chances to say 'no' as he wants to until he ultimately
+           says yes.
+
+J1.000.052: After finishing the conversation with Al Lowe, he never hangs up.
+
+            The random thug keeps repeating "Hhhhhhhhh" twice, no matter what
+            Sonny says (In hiragana, he actually says "Ha-a...")  He never
+            hangs up on the player.
+
+            There is also a weird bug where the parser does not refresh and
+            the previous command is still in the box.
+
+-------------------------------------------------------------------------------
+pic.502 -- In Trouble with the Captain
+- When getting suspended, there is one of three canned responses the Captain will
+  use. Which one is completely random.
+
+The Rules Change Depending On The Car  1.000   1.006   J1.052  1.024   2.011
+                                         X       X       X       X       X
+- The timers that are set after getting yelled at appear to be based on which
+  vehicle Sonny is driving.
+  - Unmarked Car: The 2nd timer is set to 300. The only exception is prior to
+    Bains escape where the 2nd timer is set to 600 before the meetup with the
+    captain happens and the 1st timer will be set to 300.
+  - Personal Car: This one is all over the place; it depends entierly on which
+    scenario you are playing at the time:
+    - 0: Before Bains escapes
+      - The scenario is set to 1 and the 1st timer is set to 300.
+    - 5 & 10: This is for Cotton Cove and Warehouse
+      - When you enter the car, the current timer is set to 3 seconds (which
+        means, no matter where you try to go, you will always get in trouble).
+      - If the player is on the 1st timer, the 2nd one is set to 600.
+    - 8: Pre-Warehouse
+      - Since Sonny starts in his vehicle, being in it does not affect the 600
+        timer. Driving somewhere, however, sets it to 10, meaning the player
+        gets into trouble no matter what happens. Fortunately, this merely sets
+        the 1st timer to 600 and this can be done without consequence.
+    - All others
+      - If the player gets in trouble with the captain on the 1st timer, no
+        timer will set afterwards, giving the player free reign to do whatever
+        they want until the current scenario has been completed.
 
 -------------------------------------------------------------------------------
 pic.666 -- Cotton Cove, Van (script.066)
@@ -1423,16 +3152,92 @@ pic.666 -- Cotton Cove, Van (script.066)
   equipment, but be unable to stay underwater for any length of time.
 
 ** COMMANDS:
-   - look window
+- look window
 
 ** BUGS:
-   - spaces are left in places where equipment that can be picked up would be
-     in the description.
+- In the description, there are spots for where equipment is stated to be. If
+  Sonny has picked up said pieces of equipment, spaces are left in their place.
+
 
 -------------------------------------------------------------------------------
 -- EXTRAS
 
-script.044
+Speed Setting
 
-- Some addition comments from Jim is not used
-   - "Jim is terribly disappointed, and says:"
+- In 1.001.000, there is no ability to manually adjust the speed value. You can
+  use + and - to change it up and down and use = to set it to 6, which appears
+  to be the default value.
+- In 1.001.006, the new 'SET SPEED' is bugged: It does not come included with
+  a current value in the input (It is listed above) and if left empty, the game
+  will set the speed to 1.
+- This is fixed by the Amiga, JP and 1.002.011 versions where an existing value
+  is included in the input. Also, if you try to remove the value and submit an
+  empty field, the speed will remain unchanged.
+
+Walkie talkie
+- "Hand held transmitter/reciever"..
+
+Game Introduction
+- A new problem was created in 1.024 (and is carried over to J1.000.052 and
+  1.002.011). The updates to the animation speed ended up tying the game
+  introduction to computer cycles rather than the SCI0 timer, leading to a much
+  faster game introduction. This can cause a number of glitches to appear
+  on the opening, depending on fast the system is, such as entire background
+  pieces floating into other background pieces and off the screen.
+
+script.044
+- Some additional comments from Jim are not used
+  - "Jim is terribly disappointed, and says:"
+
+
+------------------------------------ CREDIT -----------------------------------
+
+Thanks for pointing out:
+Gage Holsten:          - "Open Wallet"
+(He's been busy...)    - Airport > Bully Larry
+                                 > Bypassing metal detector **
+                                 > Ditching Keith **
+                                 > Losing the Field Kit
+                                 > Moonwalking
+                                 > Toilet Walking **
+                       - Airplane > Bathroom is occupied
+                       - Arnie's > Drawing and shooting gun *
+                                 > Moonwalking **
+                                 > Out of Bounds **
+                       - Burt Park > escape the mugger & entrance **
+                                   > sewer escape & infinite points **
+                                   > Who's a Good Keith?!
+                       - Cotton Cove > "Bouynacy"!
+                                     > Moore is sticky
+                                     > No certificate? No problem!
+                                     > Run over by Bains? Shrug it off!
+                                     > "Upriver, not downriver"
+                                     > Keith pathblocked **
+                                     > Escape diving fatality **
+                       - Homicide > Captain not seeing Colby's card **
+                       - Marie's House > Picture shadow problem
+                                       > Moonwalking
+                       - Motel > Script 225, personal car and out of bounds **
+                               > Driving from inn to inn.
+                       - Motel Room 108 > Helped find infinite points **
+                       - Oak Tree Mall > Bad path blocker for car *
+                       - Station Entrance > Door does not auto-lock
+                       - Warehouse > Alternate arrival
+                                   > Reading death threat
+                                   > Ditching the Coroner & 'oops' with body.
+                                   > Getting stuck under the coroner's car **
+                       - Warehouse, Trunk > 'look look face'
+                       - Various spelling mistakes in: Homicide, Locker Room,
+                         Airport Escalator, Airport Bathroom, Jail Parking Lot,
+                         Arnie's, Airplane, Cotton Cove, Warehouse and walkie
+                         talkie
+JeanB-br9nw:           - Gun glitch at Airport, Bathroom
+Santaclaus / Swimfan:  - Alternate bypass for the detector at Airport Security
+                         (1.001.000, only)
+Sierra Art:            - Moonwalking (Motel) **
+                       - Sonny shot at Cotton Cove while leaving screen
+Space Quest Historian: - Hovering arms at Shooting Gallery
+                       - Infinite points at Cotton Cove (Ask Blood)
+
+* Thanks for the reminder. I had forgotten.
+** The observation got me started.
